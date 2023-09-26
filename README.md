@@ -36,7 +36,7 @@ We have exciting prizes for our top contributors, including LinkedIn vouchers an
 If you have questions, need assistance, or want to discuss the projects, feel free to reach out to us:
 
 - Join our community on Whatsapp [insert platform/link].
-- Connect with us on Twitter [insert community forum/social media].
+- Connect with us on [Twitter](https://twitter.com/mlsanigeria).
 - For inquiries, email us at [insert contact email].
 
 ## Help Us Spread the Word
