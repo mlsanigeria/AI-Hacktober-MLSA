@@ -35,8 +35,8 @@ We have exciting prizes for our top contributors, including LinkedIn vouchers an
 
 If you have questions, need assistance, or want to discuss the projects, feel free to reach out to us:
 
-- Join our community on (Whatsapp)[insert platform/link] ![icons8-whatsapp-48](https://github.com/mlsanigeria/AI-Hacktober-MLSA/assets/64220829/e60386d6-b458-45f4-856b-e5e00b95f3fd).
-- Connect with us on [Twitter](https://twitter.com/mlsanigeria) ![icons8-twitter-48](https://github.com/mlsanigeria/AI-Hacktober-MLSA/assets/64220829/0fb49c6c-52a2-4ac5-9c2d-1045a1b23ae7).
+- Join our community on (Whatsapp)[insert platform/link].
+- Connect with us on [Twitter](https://twitter.com/mlsanigeria).
 - For inquiries, email us at [insert contact email].
 
 <a target="_blank" href="https://icons8.com/icon/7OeRNqg6S7Vf/whatsapp">WhatsApp</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
