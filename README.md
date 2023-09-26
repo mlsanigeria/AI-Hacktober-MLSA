@@ -36,9 +36,6 @@ If you have questions, need assistance, or want to discuss the projects, feel fr
 
 - Join our community on (Whatsapp)[insert platform/link].
 - Connect with us on [Twitter](https://twitter.com/mlsanigeria).
-- For inquiries, email us at [insert contact email].
-
-<a target="_blank" href="https://icons8.com/icon/7OeRNqg6S7Vf/whatsapp">WhatsApp</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 ## Help Us Spread the Word
 
