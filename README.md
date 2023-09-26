@@ -16,8 +16,7 @@ This challenge focuses on two main tracks:
 
 2. **Choose a Project**: Browse our projects and choose one that interests you. You can contribute to both tracks if you'd like!
 
-3. **Make Contributions**: Make meaningful contributions by fixing bugs, adding new features, improving documentation, or addressing issues. <br>
-   Check out the [Contribution Guidelines](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/CONTRIBUTING.md).
+3. **Make Contributions**: Make meaningful contributions by fixing bugs, adding new features, improving documentation, or addressing issues. Check out the [Contribution Guidelines](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/CONTRIBUTING.md).
 
 5. **Submit a Pull Request**: Submit your contributions as pull requests. Please follow our contribution guidelines outlined in the project's README.
 
