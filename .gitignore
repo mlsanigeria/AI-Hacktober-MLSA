@@ -3,3 +3,4 @@
 /lib/
 /etc/
 /share/
+*.env
