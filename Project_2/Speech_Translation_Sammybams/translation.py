@@ -1,7 +1,10 @@
 import requests, uuid, json
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # Add your key and endpoint
-key = "<your-translator-key>"
+key = os.getenv('TRANSLATOR_KEY')
 endpoint = "https://api.cognitive.microsofttranslator.com"
 
 # location, also known as region.
