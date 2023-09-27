@@ -6,8 +6,8 @@ import os
 
 
 # Define your GitHub repository and authentication token
-repository_owner = "username"
-repository_name = "repo_name"
+repository_owner = "mlsanigeria"
+repository_name = "AI-Hacktober-MLSA"
 api_token = os.environ.get("API_TOKEN")
 
 # Define the GitHub API endpoint for pull requests
