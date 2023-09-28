@@ -76,6 +76,6 @@ markdown_content = """
 ))
 
 # Write the Markdown content to README.md
-with open("README.md", "w") as readme_file:
-    readme_file.write(markdown_content)
+with open("README.md", "a") as readme_file:
+    readme_file.write("\n" + markdown_content)
     print("successfully updated README.md")
