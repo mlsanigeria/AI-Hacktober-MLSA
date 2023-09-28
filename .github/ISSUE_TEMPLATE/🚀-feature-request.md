@@ -1,9 +1,9 @@
 ---
 name: "\U0001F680 Feature request"
 about: Suggest an idea for this Project!
-title: "[REQUEST]:"
-labels: enhancement
-assignees: devgenix
+title: "[SUGGESTED FEATURE REQUEST]: "
+labels: ["enhancement", "request"]
+assignees: ["sammybams", "odion-sonny"]
 
 ---
 
