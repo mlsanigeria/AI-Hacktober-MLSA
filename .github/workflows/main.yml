@@ -33,7 +33,7 @@ jobs:
           python update_leaderboard.py
       - name: Configure Git
         run: |
-          git config --global user.email "email"
+          git config --global user.email "lordtitan7@gmail.com"
           git config --global user.name "mlsanigeria"
       
       - name: Check for changes
