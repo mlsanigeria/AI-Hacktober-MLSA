@@ -43,7 +43,7 @@ Before you begin, make sure to review our [Contribution Guidelines](https://gith
 - Implement and improve the machine learning model.
 - Make pull requests and collaborate effectively.
 
-## Join the Community
+## :houses:  Join the Community
 
 We value your contributions and look forward to building this project together. Join our community on [insert platform/link]() to connect with fellow contributors, ask questions, and share your progress.
 
