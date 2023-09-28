@@ -8,7 +8,7 @@ def initialize_api():
     # Define your GitHub repository and authentication token
     repository_owner = "mlsanigeria"
     repository_name = "AI-Hacktober-MLSA"
-    api_token = os.environ.get("API_TOKEN")
+    api_token = os.environ.get("GITHUB_TOKEN")
 
     # Define the GitHub API endpoint for pull requests
     api_url = f"https://api.github.com/repos/{repository_owner}/{repository_name}/pulls"
