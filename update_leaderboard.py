@@ -65,7 +65,7 @@ def leaderboard_data():
     leaderboard_data = []
     rank = 1
     for user, count in sorted_users:
-        leaderboard_data.append({"rank":rank, "contributor": f"{user}", "merged_prs": f"{count}"})
+        leaderboard_data.append({"rank":rank, "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
         rank += 1
     return leaderboard_data
 
@@ -78,7 +78,7 @@ markdown_content = """
 | ---- | ----------- | ---------- |
 {}
 """.format("\n".join(
-    f"| {entry['rank']} | @{entry['contributor']} | {entry['merged_prs']} |"
+    f"| {entry['rank']} | {entry['contributor']} | {entry['merged_prs']} |"
     for entry in leaderboard_data
 ))
 
