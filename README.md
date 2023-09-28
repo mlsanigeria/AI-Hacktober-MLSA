@@ -24,7 +24,7 @@ This challenge focuses on two main tracks:
 
 We maintain a leaderboard to track your contributions and their impact on our projects. The more you contribute, the higher you'll climb on the leaderboard.
 
-Check the leaderboard [here](link-to-leaderboard).
+Check the leaderboard [here](https://github.com/Odion-Sonny/AI-Hacktober-MLSA/blob/main/LEADERBOARD.md).
 
 ## Prizes
 
