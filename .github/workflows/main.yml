@@ -1,1 +1,49 @@
+name: Update Leaderboard
 
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  update-leaderboard:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+        
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests==2.31.0
+
+      - name: Use a secret
+        env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+        run: |
+          # Pass the API_TOKEN secret as an environment variable to your script
+          python update_leaderboard.py
+      - name: Configure Git
+        run: |
+          git config --global user.email "email"
+          git config --global user.name "username"
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --exit-code || echo "::set-output name=changes::true"
+            
+      - name: Commit and Push Changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git add LEADERBOARD.md
+          git commit -m "Update leaderboard"
+          git push
