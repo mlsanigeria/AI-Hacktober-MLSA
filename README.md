@@ -45,4 +45,6 @@ Help us make this initiative a success by sharing it with your network! Use the 
 
 Thank you for being part of the Hacktoberfest Open Source Challenge. Your contributions make a difference, and together, we can create amazing open-source solutions. Let's code, collaborate, and celebrate open source! 🚀
 
+<br>
+
 ![MLSA Nigeria & Hacktoberfest Logo](https://github.com/mlsanigeria/AI-Hacktober-MLSA/assets/64220829/ba0153a7-df46-4a07-8f32-7d11e2295046)
