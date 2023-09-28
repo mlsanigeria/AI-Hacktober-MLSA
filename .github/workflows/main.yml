@@ -32,6 +32,7 @@ jobs:
         run: |
           # Pass the API_TOKEN secret as an environment variable to your script
           python update_leaderboard.py
+          
       - name: Configure Git
         run: |
           # Configure git
