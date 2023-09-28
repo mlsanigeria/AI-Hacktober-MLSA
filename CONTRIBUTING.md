@@ -21,7 +21,7 @@ In this project, you will work on image classification tasks. We have provided a
 
 4. Work on your image classification tasks in your notebook.
 
-5. The minimum contribution a user can make is on preprocessing of the data(images)
+5. The minimum contribution a user can make is on preprocessing of the data(images).
 
 6. For contributions related to modeling, the model's performance must achieve a minimun of 60% accuracy to be considered valid.
 
