@@ -36,7 +36,7 @@ To contribute to this project, please follow these steps:
 
 ## Contribution Guidelines
 
-Before you begin, make sure to review our [Contribution Guidelines](CONTRIBUTING.md) for detailed instructions on how to:
+Before you begin, make sure to review our [Contribution Guidelines](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/CONTRIBUTING.md) for detailed instructions on how to:
 
 - Contribute to data collection.
 - Build and improve the machine learning model.
