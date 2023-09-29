@@ -39,7 +39,7 @@ Once the project is up and running, you'll be able to use our translation servic
 
 ## Join the Community
 
-We're excited to have you as part of this mission to break down language barriers! Join our community on [insert platform/link]() to connect with fellow contributors, ask questions, and share your progress.
+We're excited to have you as part of this mission to break down language barriers! Join our community on [Whatsapp](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/whatsapp_communities.md) to connect with fellow contributors, ask questions, and share your progress.
 
 Together, let's create a translation service that brings people closer, no matter where they are or what language they speak!
 
