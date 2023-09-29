@@ -49,4 +49,5 @@ jobs:
         run: |
           git add LEADERBOARD.md
           git commit -m "Update leaderboard"
+          git remote set-url origin "https://${{ secrets.GITHUB_TOKEN }}@github.com/mlsanigeria/AI-Hacktober-MLSA.git"
           git push
