@@ -34,7 +34,7 @@ We have exciting prizes for our top contributors, including LinkedIn vouchers an
 
 If you have questions, need assistance, or want to discuss the projects, feel free to reach out to us:
 
-- Join our community on (Whatsapp)[insert platform/link].
+- Join our community on [Whatsapp](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/whatsapp_communities.md).
 - Connect with us on [Twitter](https://twitter.com/mlsanigeria).
 
 ## Help Us Spread the Word
