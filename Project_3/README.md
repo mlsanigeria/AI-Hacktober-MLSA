@@ -26,7 +26,7 @@ Contributors will participate in three key phases:
 
 To contribute to this project, please follow these steps:
 
-1. **Review the Contribution Guidelines**: Take a look at the [Contribution Guidelines](CONTRIBUTING.md) to understand how to contribute effectively.
+1. **Review the Contribution Guidelines**: Take a look at the [Contribution Guidelines](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/CONTRIBUTING.md) to understand how to contribute effectively.
 
 2. **Data Collection**: If you wish to participate in data collection, stay tuned for data collection forms and instructions.
 
@@ -44,7 +44,7 @@ Before you begin, make sure to review our [Contribution Guidelines](https://gith
 
 ## Join the Community
 
-We're excited to have you as part of this innovative project! Join our community on [insert platform/link] to connect with fellow contributors, ask questions, and share your progress.
+We're excited to have you as part of this innovative project! Join our community on [Whatsapp](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/whatsapp_communities.md) to connect with fellow contributors, ask questions, and share your progress.
 
 Together, let's create a predictive tool that helps Nigerian students anticipate their Year One GPA and make informed decisions about their education.
 
