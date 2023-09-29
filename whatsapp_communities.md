@@ -9,3 +9,4 @@
 | Abubakar Tafawa Balewa University | https://chat.whatsapp.com/KOHYLZkZrsOLBSE9ahAlBX |
 | Federal University of Technology, Akure | https://chat.whatsapp.com/DNHEUkMkjh2AxwAcA8532V |
 | Ekiti State University | https://chat.whatsapp.com/ENSHlijEVC49zqNlVWjQuc |
+| University of Benin | https://chat.whatsapp.com/F3d40fIigvDHSbkoOleN1q |
