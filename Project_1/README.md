@@ -45,7 +45,7 @@ Before you begin, make sure to review our [Contribution Guidelines](https://gith
 
 ## Join the Community
 
-We value your contributions and look forward to building this project together. Join our community on [insert platform/link]() to connect with fellow contributors, ask questions, and share your progress.
+We value your contributions and look forward to building this project together. Join our community on [Whatsapp](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/whatsapp_communities.md) to connect with fellow contributors, ask questions, and share your progress.
 
 Let's work together to create a powerful building classification model that's accurate, versatile, and open for everyone to use!
 
