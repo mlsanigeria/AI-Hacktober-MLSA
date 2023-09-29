@@ -1,6 +1,6 @@
 | School | Link to Whatsapp Community |
 | --- | --- |
-| University Of Lagos1 | https://chat.whatsapp.com/FwchWMpGYRH4UMPptF8rNC |
+| University Of Lagos | https://chat.whatsapp.com/FwchWMpGYRH4UMPptF8rNC |
 | University of Ilorin  | https://chat.whatsapp.com/ECXDSQBB88q9M0pgmk5r2k |
 | Federal University of Technology, Minna | https://chat.whatsapp.com/GUxSulu7sc94vRQZyy9nK6 |
 | Federal University of Technology, Owerri | https://chat.whatsapp.com/Erxe4MH5FwpH7Vf6sVbK4C |
