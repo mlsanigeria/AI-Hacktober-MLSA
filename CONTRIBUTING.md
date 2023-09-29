@@ -29,7 +29,7 @@ In this project, you will work on image classification tasks. We have provided a
 
 8. When you are ready, make a pull request to the main repository.
 
-## Project 2: Script Enhancement
+## Project 2: Speech Translation
 
 Project 2 involves enhancing existing scripts. We have provided starter scripts along with a `requirements.txt` file.
 
