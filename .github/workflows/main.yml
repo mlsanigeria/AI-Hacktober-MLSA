@@ -27,6 +27,7 @@ jobs:
 
       - name: Use a secret
         env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
         run: |
