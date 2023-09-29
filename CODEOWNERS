@@ -1,0 +1,8 @@
+# These owners will be the default owners for everything in the repo.
+# Unless a later match takes precedence, @devgenix will be requested for new issues and reviews when someone opens a pull request.
+# When this happens, @devgenix would take action to inform, assign or delegate appropriately.
+
+# These are the code owners:
+*       @devgenix
+*       @nworiekingslee
+*       @faradayadmin

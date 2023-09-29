@@ -34,14 +34,14 @@ We have exciting prizes for our top contributors, including LinkedIn vouchers an
 
 If you have questions, need assistance, or want to discuss the projects, feel free to reach out to us:
 
-- Join our community on (Whatsapp)[insert platform/link].
+- Join our community on [Whatsapp](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/whatsapp_communities.md).
 - Connect with us on [Twitter](https://twitter.com/mlsanigeria).
 
 ## Help Us Spread the Word
 
 Help us make this initiative a success by sharing it with your network! Use the hashtag #Hacktoberfest to spread the word and encourage others to join.
 
-## Happy Hacking!
+## Happy Hacking!🎉
 
 Thank you for being part of the Hacktoberfest Open Source Challenge. Your contributions make a difference, and together, we can create amazing open-source solutions. Let's code, collaborate, and celebrate open source! 🚀
 
