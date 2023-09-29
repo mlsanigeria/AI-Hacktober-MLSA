@@ -61,4 +61,5 @@ If you have any questions or need assistance, please feel free to reach out to u
 
 **Happy Hacking!**
 
-[Contact Information or Links to Resources]
+## Links to Resources
+1. [How to Do Your First Pull Request](https://youtu.be/nkuYH40cjo4?si=Cb6U2EKVR_Ns4RLw)
