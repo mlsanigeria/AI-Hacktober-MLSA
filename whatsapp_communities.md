@@ -7,3 +7,4 @@
 | University of Ibadan | https://chat.whatsapp.com/IlhqeXrVgz04p92vE2SeUF |
 | University of Port Harcourt  | https://chat.whatsapp.com/HCPHEoeVmxs25Rr3pH2Mwy |
 | Abubakar Tafawa Balewa University | https://chat.whatsapp.com/KOHYLZkZrsOLBSE9ahAlBX |
+| Federal University of Technology, Akure | [link](https://chat.whatsapp.com/DNHEUkMkjh2AxwAcA8532V) |
