@@ -27,7 +27,7 @@ jobs:
 
       - name: Use a secret
         env:
-          API_TOKEN: ${{ secrets.API_TOKEN }}
+          # API_TOKEN: ${{ secrets.API_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
         run: |
@@ -48,7 +48,11 @@ jobs:
       - name: Commit and Push Changes
         if: steps.check_changes.outputs.changes == 'true'
         run: |
+          export API_TOKEN=${{ secrets.API_TOKEN }}
+          # Authenticate using the PAT
+          
           git add LEADERBOARD.md
           git commit -m "Update leaderboard"
-          git remote set-url origin "https://${{ secrets.API_TOKEN }}@github.com/mlsanigeria/AI-Hacktober-MLSA.git"
+          git remote set-url origin https://$API_TOKEN@github.com/mlsanigeria/AI-Hacktober-MLSA.git
+          # git remote set-url origin "https://${{ secrets.API_TOKEN }}@github.com/mlsanigeria/AI-Hacktober-MLSA.git"
           git push
