@@ -52,6 +52,7 @@ def get_sorted_pr():
     
     # Create a dictionary to track the count of merged pull requests by each user
     merged_prs_count_by_user = defaultdict(int)
+    avi = {}
     # Create a list of contributors to exempt
     exempt = ["Odion-Sonny", "Tutu6790", "Sammybams", "FelixFrankFelix", "Olamilekan002", "AjibolaMatthew1", "salimcodes"]
 
@@ -67,22 +68,20 @@ def get_sorted_pr():
             else:
                 # Increment the count of merged pull requests for this user
                 merged_prs_count_by_user[pr_by] += 1
-    
+                avi[pr_by] = pr['user']['avatar_url']
     # Print the sorted list of users and their merged pull request counts
     sorted_users = sorted(merged_prs_count_by_user.items(), key=lambda x: x[1], reverse=True)
-    for user, count in sorted_users:
-        print(f"{user}: {count} merged pull requests")
 
     # Sort the users by the number of merged pull requests in descending order
-    return sorted_users
+    return sorted_users, avi
 
 def leaderboard_data():
     # Calculate the leaderboard data
-    sorted_users = get_sorted_pr()
+    sorted_users, avi = get_sorted_pr()
     leaderboard_data = []
     rank = 1
     for user, count in sorted_users:
-        leaderboard_data.append({"rank":rank, "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
+        leaderboard_data.append({"rank":rank, "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
         rank += 1
     return leaderboard_data
 
@@ -91,11 +90,16 @@ leaderboard_data = leaderboard_data()
 markdown_content = """
 # GitHub Leaderboard
 
-| Rank | Contributor | Merged PRs |
-| ---- | ----------- | ---------- |
+Welcome to the Official Leaderboard, showcasing our top contributors and their impressive contributions.
+
+| Rank || Contributor | Merged PRs |
+| ---- | -- |----------- | ---------- |
 {}
+
+Thank you to all our fantastic contributors for their hard work and dedication!
+
 """.format("\n".join(
-    f"| {entry['rank']} | {entry['contributor']} | {entry['merged_prs']} |"
+    f"| {entry['rank']} | {entry['avi']} | {entry['contributor']} | {entry['merged_prs']} |"
     for entry in leaderboard_data
 ))
 
