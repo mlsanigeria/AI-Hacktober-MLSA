@@ -5,8 +5,6 @@ on:
     types:
       - closed
 
-permissions: write-all 
-
 jobs:
   update-leaderboard:
     runs-on: ubuntu-latest
@@ -14,7 +12,7 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v2
-        
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -25,34 +23,28 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests==2.31.0
 
+      - name: Configure Git
+        run: |
+          git config --global user.email "lordtitan7@gmail.com"
+          git config --global user.name "mlsanigeria"
+
       - name: Use a secret
         env:
-          # API_TOKEN: ${{ secrets.API_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          API_TOKEN: ${{ secrets.API_TOKEN }}
           
         run: |
           # Pass the API_TOKEN secret as an environment variable to your script
           python update_leaderboard.py
-          
-      - name: Configure Git
-        run: |
-          # Configure git
-          git config --global user.email "lordtitan7@gmail.com"
-          git config --global user.name "mlsanigeria"
-      
+
       - name: Check for changes
         id: check_changes
         run: |
           git diff --exit-code || echo "::set-output name=changes::true"
-            
+
       - name: Commit and Push Changes
         if: steps.check_changes.outputs.changes == 'true'
         run: |
-          export API_TOKEN=${{ secrets.API_TOKEN }}
-          # Authenticate using the PAT
-          
           git add LEADERBOARD.md
           git commit -m "Update leaderboard"
           git remote set-url origin https://$API_TOKEN@github.com/mlsanigeria/AI-Hacktober-MLSA.git
-          # git remote set-url origin "https://${{ secrets.API_TOKEN }}@github.com/mlsanigeria/AI-Hacktober-MLSA.git"
           git push
