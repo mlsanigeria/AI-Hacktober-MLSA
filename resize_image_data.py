@@ -8,7 +8,7 @@ repository_path = "/github/workspace/AI-Hacktober-MLSA/AI-Hacktober-MLSA/Project
 
 for building in building_types:
     directory_path = os.path.join(repository_path, building)
-    
+    print(directory_path)
     # Check if the directory exists
     if os.path.exists(directory_path):
         filenames = os.listdir(directory_path)
