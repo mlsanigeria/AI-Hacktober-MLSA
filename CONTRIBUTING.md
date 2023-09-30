@@ -54,16 +54,16 @@ In this project, you will work on a regression task. We have provided a starter 
 
 ### Contribution Guidelines
 
-1. Clone the repository to your local machine.
-
-2. Create a folder under the `Project_3` directory with the following naming convention:
+1. Contribute to the data collection process for this project by completing the survey on [Nigerian Student's Year One Performanc](https://forms.office.com/r/Q6QqNzTasn).
+2. Clone the repository to your local machine.
+3. Create a folder under the `Project_3` directory with the following naming convention:
    - Folder Name: `GPA_Prediction_{GitHub_Username}`
    
    For example, if your GitHub username is `octocat`, your folder should be named `GPA_Prediction_octocat`.
 
-3. Within your personal folder, you have your own environment to create your notebook and workspace.
+4. Within your personal folder, you have your own environment to create your notebook and workspace.
 
-4. Work on your regression task in your notebook.
+5. Work on your regression task in your notebook.
 
 ### Evaluation Metric
 
