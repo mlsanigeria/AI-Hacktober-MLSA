@@ -6,7 +6,7 @@ on:
       - closed
 
 jobs:
-  update-leaderboard:
+  resize-image:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,7 +28,7 @@ jobs:
           git config --global user.email "lordtitan7@gmail.com"
           git config --global user.name "mlsanigeria"
 
-      - name: Use a secret
+      - name: Run script
         env:
           API_TOKEN: ${{ secrets.API_TOKEN }}
           
