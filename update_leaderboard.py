@@ -58,7 +58,7 @@ def get_sorted_pr():
     # Iterate through the pull_requests list
     for pr in response:
         # Check if the pull request was merged and get the username of the user who merged it
-        if pr['state'] == 'closed' and pr['merged_at']:
+        if pr['merged_at']:
             pr_by = pr['user']['login']
             
             # Check if the user is exempted
