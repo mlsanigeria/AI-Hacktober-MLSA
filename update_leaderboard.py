@@ -52,14 +52,21 @@ def get_sorted_pr():
     
     # Create a dictionary to track the count of merged pull requests by each user
     merged_prs_count_by_user = defaultdict(int)
+    # Create a list of contributors to exempt
+    exempt = ["Odion-Sonny", "Tutu6790", "Sammybams", "FelixFrankFelix", "Olamilekan002", "AjibolaMatthew1", "salimcodes"]
 
     # Iterate through the pull_requests list
     for pr in response:
         # Check if the pull request was merged and get the username of the user who merged it
         if pr['state'] == 'closed' and pr['merged_at']:
             pr_by = pr['user']['login']
-            # Increment the count of merged pull requests for this user
-            merged_prs_count_by_user[pr_by] += 1
+            
+            # Check if the user is exempted
+            if pr_by in exempt:
+                continue
+            else:
+                # Increment the count of merged pull requests for this user
+                merged_prs_count_by_user[pr_by] += 1
     
     # Print the sorted list of users and their merged pull request counts
     sorted_users = sorted(merged_prs_count_by_user.items(), key=lambda x: x[1], reverse=True)
