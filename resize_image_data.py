@@ -14,6 +14,7 @@ for building in building_types:
         filenames = os.listdir(directory_path)
         index = 1
         for filename in filenames:
+            print(filename)
             try:
                 image = Image.open(os.path.join(directory_path, filename))
             except Exception as e:
