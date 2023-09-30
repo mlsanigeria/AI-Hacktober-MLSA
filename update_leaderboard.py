@@ -103,7 +103,7 @@ Thank you to all our fantastic contributors for their hard work and dedication!
     for entry in leaderboard_data
 ))
 
-# Write the Markdown content to README.md
+# Write the Markdown content to LEADERBOARD.md
 with open("LEADERBOARD.md", "w") as readme_file:
     readme_file.write(markdown_content)
     print("successfully updated LEADERBOARD.md")
