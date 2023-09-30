@@ -4,7 +4,7 @@
 
 Welcome to the Hacktoberfest repository organized by the Microsoft Learn Student Ambassadors in Nigeria! We appreciate your interest in contributing to our projects. Please read this guide to understand how you can participate and make meaningful contributions.
 
-## Project 1: Image Classification
+## Project 1: Image Classification of Building Types
 
 In this project, you will work on image classification tasks. We have provided a starter notebook for you to begin your work.
 
@@ -46,6 +46,32 @@ Project 2 involves enhancing existing scripts. We have provided starter scripts 
 5. Commit your changes and push them to your forked repository.
 
 6. Create a pull request to merge your changes into the main repository.
+
+
+## Project 3: Prediction of Nigerian Student's Year One Performance
+
+In this project, you will work on a regression task. We have provided a starter notebook for you to begin your work.
+
+### Contribution Guidelines
+
+1. Clone the repository to your local machine.
+
+2. Create a folder under the `Project_4` directory with the following naming convention:
+   - Folder Name: `GPA_Prediction_{GitHub_Username}`
+   
+   For example, if your GitHub username is `octocat`, your folder should be named `GPA_Prediction_octocat`.
+
+3. Within your personal folder, you have your own environment to create your notebook and workspace.
+
+4. Work on your image classification tasks in your notebook.
+
+### Evaluation Metric
+
+We evaluate the performance of the machine learning model using the Root Mean Squared Error (RMSE). The RMSE is calculated using the predicted GPA values and actual GPA values from the dataset.
+
+- Your contribution should aim to improve the RMSE metric.
+- PRs will be reviewed based on the improvement they bring to the RMSE.
+- A minimum standard for RMSE score for merging PRs will be set and communicated to you in your PR.
 
 ## General Guidelines
 
