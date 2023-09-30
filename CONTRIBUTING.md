@@ -56,14 +56,14 @@ In this project, you will work on a regression task. We have provided a starter 
 
 1. Clone the repository to your local machine.
 
-2. Create a folder under the `Project_4` directory with the following naming convention:
+2. Create a folder under the `Project_3` directory with the following naming convention:
    - Folder Name: `GPA_Prediction_{GitHub_Username}`
    
    For example, if your GitHub username is `octocat`, your folder should be named `GPA_Prediction_octocat`.
 
 3. Within your personal folder, you have your own environment to create your notebook and workspace.
 
-4. Work on your image classification tasks in your notebook.
+4. Work on your regression task in your notebook.
 
 ### Evaluation Metric
 
