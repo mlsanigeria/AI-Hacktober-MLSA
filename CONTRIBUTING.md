@@ -67,7 +67,7 @@ In this project, you will work on a regression task. We have provided a starter 
 
 ### Evaluation Metric
 
-We evaluate the performance of the machine learning model using the Root Mean Squared Error (RMSE). The RMSE is calculated using the predicted GPA values and  actual normalized GPA values from the dataset. [Check sample notebook for more information]("//Project_3//GPA_Prediction_{GitHub_Username}//GPA_prediction.ipynb")
+We evaluate the performance of the machine learning model using the Root Mean Squared Error (RMSE). The RMSE is calculated using the predicted GPA values and  actual normalized GPA values from the dataset. [Check sample notebook for more information]("https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/Project_3/GPA_Prediction_{GitHub_Username}/GPA_prediction.ipynb")
 
 - Your contribution should aim to improve the RMSE metric.
 - PRs will be reviewed based on the improvement they bring to the RMSE.
