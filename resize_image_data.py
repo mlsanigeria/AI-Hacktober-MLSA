@@ -4,7 +4,7 @@ import os
 building_types = ["Bungalow", "High-rise", "Storey-building"]
 
 # Define the path to the data directory within your GitHub repository
-repository_path = "/Project_1/Data/"
+repository_path = "./Project_1/Data/"
 
 for building in building_types:
     directory_path = os.path.join(repository_path, building)
