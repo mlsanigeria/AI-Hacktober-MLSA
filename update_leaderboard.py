@@ -111,7 +111,7 @@ Thank you to all our fantastic contributors for their hard work and dedication!
 
 """.format("\n".join(
     f"| {entry['rank']} | {entry['avi']} | {entry['contributor']} | {entry['merged_prs']} |"
-    for entry in filtered_data
+    for entry in leaderboard_data
 ))
 
 # Write the Markdown content to LEADERBOARD.md
