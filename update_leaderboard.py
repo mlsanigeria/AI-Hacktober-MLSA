@@ -94,7 +94,7 @@ def leaderboard_data():
 leaderboard_data = leaderboard_data()
 
 # filter only the top 10 contributors
-max_rank = 10
+# max_rank = 10
 filtered_data = [contributor for contributor in leaderboard_data if contributor['rank'] <= max_rank]
 
 # Generate the Markdown content for the leaderboard
