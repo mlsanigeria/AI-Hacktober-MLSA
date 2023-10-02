@@ -130,7 +130,7 @@ filtered_data = [contributor for contributor in leaderboard_data if contributor[
 
 # Generate the Markdown content for the README
 readme_content = """
-## Top 10 Contributors
+### Top 10 Contributors
 
 | Rank || Contributor | Merged PRs |
 | ---- | -- |----------- | ---------- |
