@@ -25,7 +25,7 @@ This challenge focuses on two main tracks:
 We maintain a leaderboard to track your contributions and their impact on our projects. The more you contribute, the higher you'll climb on the leaderboard.
 
 <!-- Section Start -->
-## Top 10 Contributors
+### Top 10 Contributors
 
 | Rank || Contributor | Merged PRs |
 | ---- | -- |----------- | ---------- |
