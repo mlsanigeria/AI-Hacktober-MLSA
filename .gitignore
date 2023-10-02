@@ -4,3 +4,4 @@
 /etc/
 /share/
 *.env
+venv
