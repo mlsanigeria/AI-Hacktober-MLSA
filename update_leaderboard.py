@@ -80,12 +80,23 @@ def leaderboard_data():
     sorted_users, avi = get_sorted_pr()
     leaderboard_data = []
     rank = 1
+    last_count = 0
     for user, count in sorted_users:
-        leaderboard_data.append({"rank":rank, "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
+        if count == last_count:
+            rank -= 1
+            leaderboard_data.append({"rank":rank, "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
+        else:
+            last_count = count
+            leaderboard_data.append({"rank":rank, "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
         rank += 1
     return leaderboard_data
 
 leaderboard_data = leaderboard_data()
+
+# filter only the top 10 contributors
+# max_rank = 10
+# filtered_data = [contributor for contributor in leaderboard_data if contributor['rank'] <= max_rank]
+
 # Generate the Markdown content for the leaderboard
 markdown_content = """
 # GitHub Leaderboard

@@ -4,7 +4,7 @@
 
 Welcome to the Hacktoberfest repository organized by the Microsoft Learn Student Ambassadors in Nigeria! We appreciate your interest in contributing to our projects. Please read this guide to understand how you can participate and make meaningful contributions.
 
-## Project 1: Image Classification of Building Types
+## 🏢 Project 1: Image Classification of Building Types
 
 In this project, you will work on image classification tasks. We have provided a starter notebook for you to begin your work.
 
@@ -29,7 +29,7 @@ In this project, you will work on image classification tasks. We have provided a
 
 8. When you are ready, make a pull request to the main repository.
 
-## Project 2: Speech Translation
+## 🌍 Project 2: Speech Translation
 
 Project 2 involves enhancing existing scripts. We have provided starter scripts along with a `requirements.txt` file.
 
@@ -48,7 +48,7 @@ Project 2 involves enhancing existing scripts. We have provided starter scripts 
 6. Create a pull request to merge your changes into the main repository.
 
 
-## Project 3: Prediction of Nigerian Student's Year One Performance
+## 📚 Project 3: Prediction of Nigerian Student's Year One Performance
 
 In this project, you will work on a regression task. We have provided a starter notebook for you to begin your work.
 
@@ -73,7 +73,7 @@ We evaluate the performance of the machine learning model using the Root Mean Sq
 - PRs will be reviewed based on the improvement they bring to the RMSE.
 - A minimum standard for RMSE score for merging PRs will be set and communicated to you in your PR.
 
-## General Guidelines
+## ✔️ General Guidelines
 
 - Ensure your code is well-documented and follows best practices.
 
@@ -87,5 +87,5 @@ If you have any questions or need assistance, please feel free to reach out to u
 
 **Happy Hacking!**
 
-## Links to Resources
+## 🔗 Links to Resources
 1. [How to Do Your First Pull Request](https://youtu.be/nkuYH40cjo4?si=Cb6U2EKVR_Ns4RLw)

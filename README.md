@@ -2,7 +2,7 @@
 
 Welcome to the Hacktoberfest Open Source Challenge organized by the Microsoft Learn Student Ambassadors Community! We're thrilled to have you on board for this exciting journey of collaboration and open-source contributions.
 
-## About the Challenge
+## 🛈 About the Challenge
 
 This challenge focuses on two main tracks:
 
@@ -10,7 +10,7 @@ This challenge focuses on two main tracks:
 
 2. **Microsoft-Powered Projects**: Leverage the power of Microsoft products and tools to create impactful open-source solutions.
 
-## How to Participate
+## ❓ How to Participate
 
 1. **Fork the Repository**: Start by forking the repository to your GitHub account.
 
@@ -20,24 +20,24 @@ This challenge focuses on two main tracks:
 
 5. **Submit a Pull Request**: Submit your contributions as pull requests. Please follow our contribution guidelines outlined in the project's README.
 
-## Leaderboard
+## 🏆 Leaderboard
 
 We maintain a leaderboard to track your contributions and their impact on our projects. The more you contribute, the higher you'll climb on the leaderboard.
 
 Check the leaderboard [here](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/LEADERBOARD.md).
 
-## Prizes
+## 🥇 Prizes
 
 We have exciting prizes for our top contributors, including LinkedIn vouchers and more. Your contributions could earn you valuable rewards and recognition within the community.
 
-## Get in Touch
+## 💬 Get in Touch
 
 If you have questions, need assistance, or want to discuss the projects, feel free to reach out to us:
 
 - Join our community on [Whatsapp](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/whatsapp_communities.md).
 - Connect with us on [Twitter](https://twitter.com/mlsanigeria).
 
-## Help Us Spread the Word
+## 📣 Help Us Spread the Word
 
 Help us make this initiative a success by sharing it with your network! Use the hashtag #Hacktoberfest to spread the word and encourage others to join.
 

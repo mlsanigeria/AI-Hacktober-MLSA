@@ -6,7 +6,7 @@ Welcome to the Year One GPA Prediction Project! 📚
 
 In this project, we aim to build a Tabular Machine Learning model that predicts the Year One GPA (Grade Point Average) of Nigerian students based on various features. These features include Jamb scores, Waec grades, experiences during the first-year session, reading patterns, consistency of class attendance, and more.
 
-## Project Details
+## 🛈 Project Details
 
 ### Data Collection with Microsoft Forms
 
@@ -22,7 +22,7 @@ Contributors will participate in three key phases:
 
 3. **Deployment**: Deploy the model to the web using Streamlit, making it accessible to users. Users will be able to input various details about themselves and their study habits to get a prediction of their possible GPA at the end of the first year.
 
-## Get Started
+## 🤔 Get Started
 
 To contribute to this project, please follow these steps:
 
@@ -34,7 +34,7 @@ To contribute to this project, please follow these steps:
 
 4. **Deployment**: Help in deploying the project to the web using Streamlit and make it user-friendly for predictions.
 
-## Contribution Guidelines
+## ✔️ Contribution Guidelines
 
 Before you begin, make sure to review our [Contribution Guidelines](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/CONTRIBUTING.md) for detailed instructions on how to:
 
@@ -42,7 +42,7 @@ Before you begin, make sure to review our [Contribution Guidelines](https://gith
 - Build and improve the machine learning model.
 - Deploy the project and make it accessible to users.
 
-## Join the Community
+## 👥 Join the Community
 
 We're excited to have you as part of this innovative project! Join our community on [Whatsapp](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/whatsapp_communities.md) to connect with fellow contributors, ask questions, and share your progress.
 
