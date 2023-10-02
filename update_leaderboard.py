@@ -93,12 +93,12 @@ def leaderboard_data():
 
 leaderboard_data = leaderboard_data()
 
-# filter only the top 10 contributors
-# max_rank = 10
-# filtered_data = [contributor for contributor in leaderboard_data if contributor['rank'] <= max_rank]
+
+
+
 
 # Generate the Markdown content for the leaderboard
-markdown_content = """
+leaderboard_content = """
 # GitHub Leaderboard
 
 Welcome to the Official Leaderboard, showcasing our top contributors and their impressive contributions.
@@ -116,7 +116,87 @@ Thank you to all our fantastic contributors for their hard work and dedication!
 
 # Write the Markdown content to LEADERBOARD.md
 with open("LEADERBOARD.md", "w") as readme_file:
-    readme_file.write(markdown_content)
+    readme_file.write(leaderboard_content)
     print("successfully updated LEADERBOARD.md")
+
+
+
+
+
+
+# filter only the top 10 contributors
+max_rank = 10
+filtered_data = [contributor for contributor in leaderboard_data if contributor['rank'] <= max_rank]
+
+# Generate the Markdown content for the README
+readme_content = """
+### Top 10 Contributors
+
+| Rank || Contributor | Merged PRs |
+| ---- | -- |----------- | ---------- |
+{}
+
+Thank you to all our fantastic contributors for their hard work and dedication!
+
+""".format("\n".join(
+    f"| {entry['rank']} | {entry['avi']} | {entry['contributor']} | {entry['merged_prs']} |"
+    for entry in filtered_data
+))
+
+def update_readme_section(readme_path, section_start, section_end, new_content):
+    """
+    Update a specific section within a file without replacing section markers.
+
+    Args:
+        readme_path (str): The path to the README file.
+        section_start (str): The start marker for the section to be updated.
+        section_end (str): The end marker for the section to be updated.
+        new_content (str): The new content to insert into the section.
+
+    Returns:
+        bool: True if the section was successfully updated, False otherwise.
+    """
+    try:
+        # Open and read the README file
+        with open(readme_path, 'r') as file:
+            readme_contents = file.read()
+
+        # Locate the section to update
+        section_start_index = readme_contents.find(section_start)
+        section_end_index = readme_contents.find(section_end)
+
+        if section_start_index == -1 or section_end_index == -1 or section_start_index >= section_end_index:
+            # Section not found or invalid markers, return False
+            return False
+
+        # Update the section content
+        updated_section = section_start + new_content + section_end
+        updated_readme_contents = (
+            readme_contents[:section_start_index] +
+            updated_section +
+            readme_contents[section_end_index + len(section_end):]
+        )
+
+        # Write the updated contents back to the file
+        with open(readme_path, 'w') as file:
+            file.write(updated_readme_contents)
+
+        return True  # Section updated successfully
+
+    except Exception as e:
+        # Handle exceptions 
+        print(f"An error occurred: {e}")
+        return False
+
+readme_path = 'README.md'
+section_start = "<!-- Section Start -->"
+section_end = "<!-- Section End -->"
+new_content = readme_content
+
+if update_readme_section(readme_path, section_start, section_end, new_content):
+    print("Section updated successfully.")
+else:
+    print("Section update failed.")
+
 
 
