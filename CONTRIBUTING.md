@@ -44,7 +44,7 @@ pip install -r requirements.txt
 Add the virtual environment to Jupyter Kernel (if you want to contribute to Project 1 and/or 3)
 
 ```
-python -m ipykernel install --user --name=AI-Hacktober-MLSA`
+python -m ipykernel install --user --name=AI-Hacktober-MLSA
 ```
 
 After making all the changes you wish to make, commit and push back to your forked repo.
