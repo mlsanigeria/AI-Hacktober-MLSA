@@ -12,6 +12,8 @@ This challenge focuses on two main tracks:
 
 ## ❓ How to Participate
 
+1. **Register for Hacktoberfest**: Head over to the [Hacktoberfest website](https://hacktoberfest.com/) to register, so your contributions to this repository can also be recorded towards Hacktoberfest. 
+
 1. **Fork the Repository**: Start by forking the repository to your GitHub account.
 
 2. **Choose a Project**: Browse our projects and choose one that interests you. You can contribute to both tracks if you'd like!
