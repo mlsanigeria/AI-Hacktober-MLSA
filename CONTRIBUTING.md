@@ -139,3 +139,4 @@ If you have any questions or need assistance, please feel free to reach out to u
 
 ## 🔗 Links to Resources
 1. [How to Do Your First Pull Request](https://youtu.be/nkuYH40cjo4?si=Cb6U2EKVR_Ns4RLw)
+2. [Translate text and speech with Azure AI services](https://learn.microsoft.com/en-us/training/modules/translate-text-with-translation-service/?wt.mc_id=studentamb_217190)
