@@ -60,7 +60,7 @@ In this project, you will work on image classification tasks. We have provided a
 
 ### Contribution Guidelines
 
-1. Clone the repository to your local machine and follow the [procedure to set-up locally](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/CONTRIBUTING.md#how-to-install-dependencies-and-work-on-project-locally).
+1. Clone the repository to your local machine and follow the [procedure to set-up your environment locally](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/CONTRIBUTING.md#how-to-install-dependencies-and-work-on-project-locally).
 
 2. Create a folder under the `Project_1` directory with the following naming convention:
    - Folder Name: `Image_Classification_{GitHub_Username}`
@@ -85,9 +85,9 @@ Project 2 involves enhancing existing scripts. We have provided starter scripts 
 
 ### Contribution Guidelines
 
-1. Clone the repository to your local machine and follow the [procedure to set-up locally](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/CONTRIBUTING.md#how-to-install-dependencies-and-work-on-project-locally).
+1. Clone the repository to your local machine and follow the [procedure to set-up your environment locally](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/CONTRIBUTING.md#how-to-install-dependencies-and-work-on-project-locally).
 
-2. Create a virtual environment for the project using the provided `requirements.txt` file. You can follow this [video tutorial](link-to-video-tutorial) for detailed instructions on setting up your environment. This applies to both Project 1 and Project 2.
+2. Create a virtual environment for the project using the provided `requirements.txt` file.
 
 3. Edit, fine-tune, or create new functions in the scripts to add new features or improvements.
 
@@ -105,7 +105,7 @@ In this project, you will work on a regression task. We have provided a starter 
 ### Contribution Guidelines
 
 1. Contribute to the data collection process for this project by completing the survey on [Nigerian Student's Year One Performanc](https://forms.office.com/r/Q6QqNzTasn).
-2. Clone the repository to your local machine and follow the [procedure to set-up locally](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/CONTRIBUTING.md#how-to-install-dependencies-and-work-on-project-locally).
+2. Clone the repository to your local machine and follow the [procedure to set-up your environment locally](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/CONTRIBUTING.md#how-to-install-dependencies-and-work-on-project-locally).
 3. Create a folder under the `Project_3` directory with the following naming convention:
    - Folder Name: `GPA_Prediction_{GitHub_Username}`
    
