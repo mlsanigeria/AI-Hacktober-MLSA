@@ -44,7 +44,7 @@ Check out the full leaderboard [here](https://github.com/mlsanigeria/AI-Hacktobe
 
 ## 🥇 Prizes
 
-We have exciting prizes for our top contributors, including LinkedIn vouchers and more. Your contributions could earn you valuable rewards and recognition within the community.
+We have exciting prizes for our top contributors, including LinkedIn Premium vouchers and more. Your contributions could earn you valuable rewards and recognition within the community.
 
 ## 💬 Get in Touch
 
