@@ -29,6 +29,7 @@ for building in building_types:
                 index += 1
             else:
                 new_image = image.resize((300, 400))
+                os.remove(os.path.join(directory_path, filename))
                 if filename.split(".")[-1] != "jpeg":
                     filename = "".join([filename.split(".")[0], ".jpeg"])
                 new_image.save(os.path.join(directory_path, filename))
