@@ -8,7 +8,7 @@ Welcome to the Hacktoberfest repository organized by the Microsoft Learn Student
 
 From your terminal:
 
-Clone the repository and name as `AI-Hacktober-MLSA`
+Clone your forked repository and name as `AI-Hacktober-MLSA`
 
 ```
 git clone https://github.com/mlsanigeria/AI-Hacktober-MLSA.git
