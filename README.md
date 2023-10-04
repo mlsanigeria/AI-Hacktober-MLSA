@@ -12,14 +12,17 @@ This challenge focuses on two main tracks:
 
 ## ❓ How to Participate
 
-1. **Fork the Repository**: Start by forking the repository to your GitHub account.
+1. **Register for Hacktoberfest**: Head over to the [Hacktoberfest website](https://hacktoberfest.com/) to register, so your contributions to this repository can also be recorded towards Hacktoberfest. 
 
-2. **Choose a Project**: Browse our projects and choose one that interests you. You can contribute to both tracks if you'd like!
+2. **Fork the Repository**: Start by forking the repository to your GitHub account.
 
-3. **Make Contributions**: Make meaningful contributions by fixing bugs, adding new features, improving documentation, or addressing issues. Check out the [Contribution Guidelines](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/CONTRIBUTING.md).
+3. **Choose a Project**: Browse our projects and choose one that interests you. You can contribute to both tracks if you'd like!
+
+4. **Make Contributions**: Make meaningful contributions by fixing bugs, adding new features, improving documentation, or addressing issues. Check out the [Contribution Guidelines](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/CONTRIBUTING.md).
 
 5. **Submit a Pull Request**: Submit your contributions as pull requests. Please follow our contribution guidelines outlined in the project's README.
 
+### Still confused about how to get started? 🤔 Watch the recording of our info session on how to participate in this challenge on [Youtube](https://www.youtube.com/watch?v=7QKdghxH06M&t=1192s).
 ## 🏆 Leaderboard
 
 We maintain a leaderboard to track your contributions and their impact on our projects. The more you contribute, the higher you'll climb on the leaderboard.
@@ -41,7 +44,7 @@ Check out the full leaderboard [here](https://github.com/mlsanigeria/AI-Hacktobe
 
 ## 🥇 Prizes
 
-We have exciting prizes for our top contributors, including LinkedIn vouchers and more. Your contributions could earn you valuable rewards and recognition within the community.
+We have exciting prizes for our top contributors, including LinkedIn Premium vouchers and more. Your contributions could earn you valuable rewards and recognition within the community.
 
 ## 💬 Get in Touch
 
