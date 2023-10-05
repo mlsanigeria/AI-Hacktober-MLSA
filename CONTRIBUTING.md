@@ -1,17 +1,17 @@
 # Contribution Guidelines
 
-# Contributing to Hacktoberfest Repository
+# Contributing to the Hacktoberfest Repository
 
 Welcome to the Hacktoberfest repository organized by the Microsoft Learn Student Ambassadors in Nigeria! We appreciate your interest in contributing to our projects. Please read this guide to understand how you can participate and make meaningful contributions.
 
-## How to Install Dependencies and Work on Project Locally
+## How to Install Dependencies and Work on the Project Locally
 
 From your terminal:
 
 Clone your forked repository and name as `AI-Hacktober-MLSA`
 
 ```
-# Replapce {user_name} with your GitHub username
+# Replace {user_name} with your GitHub username
 git clone https://github.com/{user_name}/AI-Hacktober-MLSA.git
 ```
 
