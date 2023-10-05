@@ -28,7 +28,7 @@ python -m venv AI-Hacktober-MLSA
 Activate the created virtual environment
 ```
 # Windows
-AI-Hacktober-MLSA\scripts\activate
+AI-Hacktober-MLSA\Scripts\activate
 
 #macOS or Linux
 source AI-Hacktober-MLSA/bin/activate
