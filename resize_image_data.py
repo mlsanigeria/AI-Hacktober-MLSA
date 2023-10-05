@@ -13,7 +13,6 @@ for building in building_types:
     # Check if the directory exists
     if os.path.exists(directory_path):
         filenames = os.listdir(directory_path)
-        index = 1
         for filename in filenames:
             # print(filename)
             try:
@@ -43,7 +42,6 @@ for building in building_types:
                 if filename.split(".")[-1] != "jpeg":
                     filename = "".join([filename.split(".")[0], ".jpeg"])
                 image.save(os.path.join(directory_path, filename))
-                index += 1
             else:
                 # Handling EXIF metadata stored in the image.
                 try:
@@ -67,6 +65,5 @@ for building in building_types:
                 if filename.split(".")[-1] != "jpeg":
                     filename = "".join([filename.split(".")[0], ".jpeg"])
                 new_image.save(os.path.join(directory_path, filename))
-                index += 1
 
 print("Successfully resized images for Project 1.")
