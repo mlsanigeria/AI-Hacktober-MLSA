@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-# Contributing to Hacktoberfest Repository
+# Contributing to Hacktoberfest's Repository
 
 Welcome to the Hacktoberfest repository organized by the Microsoft Learn Student Ambassadors in Nigeria! We appreciate your interest in contributing to our projects. Please read this guide to understand how you can participate and make meaningful contributions.
 
@@ -28,7 +28,7 @@ python -m venv AI-Hacktober-MLSA
 Activate the created virtual environment
 ```
 # Windows
-AI-Hacktober-MLSA\Scripts\activate
+AI-Hacktober-MLSA\scripts\activate
 
 #macOS or Linux
 source AI-Hacktober-MLSA/bin/activate
@@ -52,7 +52,7 @@ After making all the changes you wish to make, commit and push back to your fork
 ```
 git add .
 git commit -m "{COMMIT_MESSAGE}"
-git push
+git push origin {YOUR_BRANCH} 
 ```
 
 ## 🏢 Project 1: Image Classification of Building Types
