@@ -38,10 +38,11 @@ for building in building_types:
                     # No EXIF data found, or orientation tag not present
                     pass
                 
-                os.remove(os.path.join(directory_path, filename))
+                
                 if filename.split(".")[-1] != "jpeg":
+                    os.remove(os.path.join(directory_path, filename))
                     filename = "".join([filename.split(".")[0], ".jpeg"])
-                image.save(os.path.join(directory_path, filename))
+                    image.save(os.path.join(directory_path, filename))
             else:
                 # Handling EXIF metadata stored in the image.
                 try:
