@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-# Contributing to Hacktoberfest's Repository
+# Contributing to the Hacktoberfest Repository
 
 Welcome to the Hacktoberfest repository organized by the Microsoft Learn Student Ambassadors in Nigeria! We appreciate your interest in contributing to our projects. Please read this guide to understand how you can participate and make meaningful contributions.
 
