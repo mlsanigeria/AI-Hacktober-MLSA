@@ -105,7 +105,7 @@ In this project, you will work on a regression task. We have provided a starter 
 
 ### Contribution Guidelines
 
-1. Contribute to the data collection process for this project by completing the survey on [Nigerian Student's Year One Performanc](https://forms.office.com/r/Q6QqNzTasn).
+1. Contribute to the data collection process for this project by completing the survey on [Nigerian Student's Year One Performance](https://forms.office.com/r/Q6QqNzTasn).
 2. Clone the repository to your local machine and follow the [procedure to set-up your environment locally](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/CONTRIBUTING.md#how-to-install-dependencies-and-work-on-project-locally).
 3. Create a folder under the `Project_3` directory with the following naming convention:
    - Folder Name: `GPA_Prediction_{GitHub_Username}`
