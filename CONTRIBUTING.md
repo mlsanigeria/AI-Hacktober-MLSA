@@ -52,7 +52,7 @@ After making all the changes you wish to make, commit and push back to your fork
 ```
 git add .
 git commit -m "{COMMIT_MESSAGE}"
-git push origin {YOUR_BRANCH} 
+git push
 ```
 
 ## 🏢 Project 1: Image Classification of Building Types
