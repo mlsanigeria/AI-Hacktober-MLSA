@@ -12,7 +12,7 @@ In this project, we aim to create a robust image classification system that can 
 
 Our goal is to build a machine learning model that can accurately classify buildings into these categories based on images provided by contributors.
 
-## Project Details
+## 🛈 Project Details
 
 ### Deployment with Streamlit
 
@@ -25,7 +25,7 @@ To train our model effectively, we need a diverse and extensive dataset of build
 1. Taking pictures of buildings and classifying them into one of the three categories (Bungalow, Storey Building, or High-Rise Building).
 2. Uploading the images to the appropriate folders, clearly labeled within the repository, based on the building type.
 
-## Get Started
+## 🤔 Get Started
 
 To contribute to this project, please follow these steps:
 
@@ -35,7 +35,7 @@ To contribute to this project, please follow these steps:
 
 3. Start contributing by adding your own images and improving the model. We encourage collaboration and look forward to your contributions!
 
-## Contribution Guidelines
+## ✔️ Contribution Guidelines
 
 Before you begin, make sure to review our [Contribution Guidelines](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/CONTRIBUTING.md) for detailed instructions on how to:
 
@@ -43,7 +43,7 @@ Before you begin, make sure to review our [Contribution Guidelines](https://gith
 - Implement and improve the machine learning model.
 - Make pull requests and collaborate effectively.
 
-## Join the Community
+## 👥 Join the Community
 
 We value your contributions and look forward to building this project together. Join our community on [Whatsapp](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/whatsapp_communities.md) to connect with fellow contributors, ask questions, and share your progress.
 

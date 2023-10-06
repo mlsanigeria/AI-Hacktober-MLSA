@@ -4,3 +4,5 @@
 /etc/
 /share/
 *.env
+venv
+pyvenv.cfg

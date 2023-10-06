@@ -52,49 +52,151 @@ def get_sorted_pr():
     
     # Create a dictionary to track the count of merged pull requests by each user
     merged_prs_count_by_user = defaultdict(int)
+    avi = {}
+    # Create a list of contributors to exempt
+    exempt = ["Odion-Sonny", "Tutu6790", "Sammybams", "FelixFrankFelix", "Olamilekan002", "AjibolaMatthew1", "salimcodes"]
 
     # Iterate through the pull_requests list
     for pr in response:
         # Check if the pull request was merged and get the username of the user who merged it
-        if pr['state'] == 'closed' and pr['merged_at']:
+        if pr['merged_at']:
             pr_by = pr['user']['login']
-            # Increment the count of merged pull requests for this user
-            merged_prs_count_by_user[pr_by] += 1
-    
+            
+            # Check if the user is exempted
+            if pr_by in exempt:
+                continue
+            else:
+                # Increment the count of merged pull requests for this user
+                merged_prs_count_by_user[pr_by] += 1
+                avi[pr_by] = pr['user']['avatar_url']
     # Print the sorted list of users and their merged pull request counts
     sorted_users = sorted(merged_prs_count_by_user.items(), key=lambda x: x[1], reverse=True)
-    for user, count in sorted_users:
-        print(f"{user}: {count} merged pull requests")
 
     # Sort the users by the number of merged pull requests in descending order
-    return sorted_users
+    return sorted_users, avi
 
 def leaderboard_data():
     # Calculate the leaderboard data
-    sorted_users = get_sorted_pr()
+    sorted_users, avi = get_sorted_pr()
     leaderboard_data = []
     rank = 1
+    last_count = 0
     for user, count in sorted_users:
-        leaderboard_data.append({"rank":rank, "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
+        if count == last_count:
+            rank -= 1
+            leaderboard_data.append({"rank":rank, "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
+        else:
+            last_count = count
+            leaderboard_data.append({"rank":rank, "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
         rank += 1
     return leaderboard_data
 
 leaderboard_data = leaderboard_data()
+
+
+
+
+
 # Generate the Markdown content for the leaderboard
-markdown_content = """
+leaderboard_content = """
 # GitHub Leaderboard
 
-| Rank | Contributor | Merged PRs |
-| ---- | ----------- | ---------- |
+Welcome to the Official Leaderboard, showcasing our top contributors and their impressive contributions.
+
+| Rank || Contributor | Merged PRs |
+| ---- | -- |----------- | ---------- |
 {}
+
+Thank you to all our fantastic contributors for their hard work and dedication!
+
 """.format("\n".join(
-    f"| {entry['rank']} | {entry['contributor']} | {entry['merged_prs']} |"
+    f"| {entry['rank']} | {entry['avi']} | {entry['contributor']} | {entry['merged_prs']} |"
     for entry in leaderboard_data
 ))
 
-# Write the Markdown content to README.md
+# Write the Markdown content to LEADERBOARD.md
 with open("LEADERBOARD.md", "w") as readme_file:
-    readme_file.write(markdown_content)
+    readme_file.write(leaderboard_content)
     print("successfully updated LEADERBOARD.md")
+
+
+
+
+
+
+# filter only the top 10 contributors
+max_rank = 10
+filtered_data = [contributor for contributor in leaderboard_data if contributor['rank'] <= max_rank]
+
+# Generate the Markdown content for the README
+readme_content = """
+### Top 10 Contributors
+
+| Rank || Contributor | Merged PRs |
+| ---- | -- |----------- | ---------- |
+{}
+
+Thank you to all our fantastic contributors for their hard work and dedication!
+
+""".format("\n".join(
+    f"| {entry['rank']} | {entry['avi']} | {entry['contributor']} | {entry['merged_prs']} |"
+    for entry in filtered_data
+))
+
+def update_readme_section(readme_path, section_start, section_end, new_content):
+    """
+    Update a specific section within a file without replacing section markers.
+
+    Args:
+        readme_path (str): The path to the README file.
+        section_start (str): The start marker for the section to be updated.
+        section_end (str): The end marker for the section to be updated.
+        new_content (str): The new content to insert into the section.
+
+    Returns:
+        bool: True if the section was successfully updated, False otherwise.
+    """
+    try:
+        # Open and read the README file
+        with open(readme_path, 'r') as file:
+            readme_contents = file.read()
+
+        # Locate the section to update
+        section_start_index = readme_contents.find(section_start)
+        section_end_index = readme_contents.find(section_end)
+
+        if section_start_index == -1 or section_end_index == -1 or section_start_index >= section_end_index:
+            # Section not found or invalid markers, return False
+            return False
+
+        # Update the section content
+        updated_section = section_start + new_content + section_end
+        updated_readme_contents = (
+            readme_contents[:section_start_index] +
+            updated_section +
+            readme_contents[section_end_index + len(section_end):]
+        )
+
+        # Write the updated contents back to the file
+        with open(readme_path, 'w') as file:
+            file.write(updated_readme_contents)
+
+        return True  # Section updated successfully
+
+    except Exception as e:
+        # Handle exceptions 
+        print(f"An error occurred: {e}")
+        return False
+
+readme_path = 'README.md'
+section_start = "<!-- Section Start -->"
+section_end = "<!-- Section End -->"
+new_content = readme_content
+
+if update_readme_section(readme_path, section_start, section_end, new_content):
+    print("Section updated successfully.")
+else:
+    print("Section update failed.")
+
 
 
