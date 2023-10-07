@@ -6,7 +6,7 @@ on:
       - closed
 
 jobs:
-  update-leaderboard:
+  update-leaderboard-and-resize-images:
     runs-on: ubuntu-latest
 
     steps:
