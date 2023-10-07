@@ -70,7 +70,8 @@ def get_sorted_pr():
                 merged_prs_count_by_user[pr_by] += 1
                 avi[pr_by] = pr['user']['avatar_url']
     # Print the sorted list of users and their merged pull request counts
-    sorted_users = sorted(merged_prs_count_by_user.items(), key=lambda x: x[1], reverse=True)
+    # sorted_users = sorted(merged_prs_count_by_user.items(), key=lambda x: x[1], reverse=True)
+    sorted_users = {val[0] : val[1] for val in sorted(merged_prs_count_by_user.items(), key = lambda x: (-x[1], x[0]))}
 
     # Sort the users by the number of merged pull requests in descending order
     return sorted_users, avi
