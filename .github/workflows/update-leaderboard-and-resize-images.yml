@@ -1,4 +1,4 @@
-name: Update Leaderboard
+name: Update Leaderboard and Resize Images
 
 on:
   pull_request:
