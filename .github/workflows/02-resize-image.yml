@@ -44,6 +44,7 @@ jobs:
       - name: Commit and Push Changes
         if: steps.check_changes.outputs.changes == 'true'
         run: |
+          git pull
           git add .
           git commit -m "Resized images for Project 1"
           git remote set-url origin https://$API_TOKEN@github.com/mlsanigeria/AI-Hacktober-MLSA.git
