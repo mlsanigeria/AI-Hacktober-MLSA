@@ -22,6 +22,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install requests==2.31.0
+          pip install --upgrade Pillow
 
       - name: Configure Git
         run: |
@@ -35,6 +36,7 @@ jobs:
         run: |
           # Pass the API_TOKEN secret as an environment variable to your script
           python update_leaderboard.py
+          python resize_image_data.py
 
       - name: Check for changes
         id: check_changes
@@ -46,6 +48,6 @@ jobs:
         run: |
           git pull
           git add LEADERBOARD.md README.md
-          git commit -m "Update leaderboard"
+          git commit -m "Updated leaderboard and resized images for Project 1."
           git remote set-url origin https://$API_TOKEN@github.com/mlsanigeria/AI-Hacktober-MLSA.git
           git push
