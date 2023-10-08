@@ -5,3 +5,5 @@
 /share/
 *.env
 venv
+pyvenv.cfg
+lib64
