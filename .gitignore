@@ -5,3 +5,4 @@
 /share/
 *.env
 venv
+pyvenv.cfg
