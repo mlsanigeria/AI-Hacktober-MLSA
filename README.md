@@ -40,6 +40,7 @@ We maintain a leaderboard to track your contributions and their impact on our pr
 | 4 | <img src='https://avatars.githubusercontent.com/u/110293491?v=4' alt='Avatar' width='30' height='30'> | [Leommm-byte](https://github.com/Leommm-byte) | 1 |
 | 4 | <img src='https://avatars.githubusercontent.com/u/56538561?v=4' alt='Avatar' width='30' height='30'> | [pidoxy](https://github.com/pidoxy) | 1 |
 | 4 | <img src='https://avatars.githubusercontent.com/u/61904970?v=4' alt='Avatar' width='30' height='30'> | [Rathish-Rajendran](https://github.com/Rathish-Rajendran) | 1 |
+| 4 | <img src='https://avatars.githubusercontent.com/u/120438013?v=4' alt='Avatar' width='30' height='30'> | [Tosinkuzzy](https://github.com/Tosinkuzzy) | 1 |
 
 Thank you to all our fantastic contributors for their hard work and dedication!
 
