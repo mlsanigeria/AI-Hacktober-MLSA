@@ -11,6 +11,7 @@ Welcome to the Official Leaderboard, showcasing our top contributors and their i
 | 4 | <img src='https://avatars.githubusercontent.com/u/39243097?v=4' alt='Avatar' width='30' height='30'> | [andrefpoliveira](https://github.com/andrefpoliveira) | 1 |
 | 4 | <img src='https://avatars.githubusercontent.com/u/89352799?v=4' alt='Avatar' width='30' height='30'> | [Gbekoilias](https://github.com/Gbekoilias) | 1 |
 | 4 | <img src='https://avatars.githubusercontent.com/u/110293491?v=4' alt='Avatar' width='30' height='30'> | [Leommm-byte](https://github.com/Leommm-byte) | 1 |
+| 4 | <img src='https://avatars.githubusercontent.com/u/101010436?v=4' alt='Avatar' width='30' height='30'> | [MichaelOmoniyi](https://github.com/MichaelOmoniyi) | 1 |
 | 4 | <img src='https://avatars.githubusercontent.com/u/56538561?v=4' alt='Avatar' width='30' height='30'> | [pidoxy](https://github.com/pidoxy) | 1 |
 | 4 | <img src='https://avatars.githubusercontent.com/u/61904970?v=4' alt='Avatar' width='30' height='30'> | [Rathish-Rajendran](https://github.com/Rathish-Rajendran) | 1 |
 | 4 | <img src='https://avatars.githubusercontent.com/u/120438013?v=4' alt='Avatar' width='30' height='30'> | [Tosinkuzzy](https://github.com/Tosinkuzzy) | 1 |
