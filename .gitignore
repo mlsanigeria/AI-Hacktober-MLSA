@@ -7,3 +7,11 @@
 venv
 pyvenv.cfg
 lib64
+
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]sw[a-p]
+
+# Persistent undo
+[._]*.un~
