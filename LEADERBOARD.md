@@ -17,6 +17,7 @@ Welcome to the Official Leaderboard, showcasing our top contributors and their i
 | 4 | <img src='https://avatars.githubusercontent.com/u/56538561?v=4' alt='Avatar' width='30' height='30'> | [pidoxy](https://github.com/pidoxy) | 1 |
 | 4 | <img src='https://avatars.githubusercontent.com/u/61904970?v=4' alt='Avatar' width='30' height='30'> | [Rathish-Rajendran](https://github.com/Rathish-Rajendran) | 1 |
 | 4 | <img src='https://avatars.githubusercontent.com/u/120438013?v=4' alt='Avatar' width='30' height='30'> | [Tosinkuzzy](https://github.com/Tosinkuzzy) | 1 |
+| 4 | <img src='https://avatars.githubusercontent.com/u/58162911?v=4' alt='Avatar' width='30' height='30'> | [VictorUmunna](https://github.com/VictorUmunna) | 1 |
 
 Thank you to all our fantastic contributors for their hard work and dedication!
 
