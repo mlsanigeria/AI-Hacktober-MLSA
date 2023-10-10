@@ -9,7 +9,11 @@ endpoint = "https://api.cognitive.microsofttranslator.com"
 
 # location, also known as region.
 # required if you're using a multi-service or regional (not global) resource. It can be found in the Azure portal on the Keys and Endpoint page.
+<<<<<<< HEAD
 location = "<YOUR-RESOURCE-LOCATION>"
+=======
+location = "eastus"
+>>>>>>> 875e090092874b8666533f89590c4d844bb005ac
 
 path = '/translate'
 constructed_url = endpoint + path

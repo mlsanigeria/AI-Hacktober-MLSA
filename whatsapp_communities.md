@@ -16,3 +16,7 @@ Here are WhatsApp communities specific to different universities. Join the one a
 | Federal University of Technology, Akure | https://chat.whatsapp.com/DNHEUkMkjh2AxwAcA8532V |
 | Ekiti State University | https://chat.whatsapp.com/ENSHlijEVC49zqNlVWjQuc |
 | University of Benin | https://chat.whatsapp.com/F3d40fIigvDHSbkoOleN1q |
+<<<<<<< HEAD
+=======
+| Yaba College of Technology | https://chat.whatsapp.com/FSs7zUnsgCd5M4S7ILVJii |
+>>>>>>> 875e090092874b8666533f89590c4d844bb005ac
