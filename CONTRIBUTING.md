@@ -12,8 +12,9 @@ Clone your forked repository and name it `AI-Hacktober-MLSA`
 
 ```
 # Replace {user_name} with your GitHub username
-git clone https://github.com/{user_name}/AI-Hacktober-MLSA.git
+git clone --depth 1 https://github.com/{user_name}/AI-Hacktober-MLSA.git
 ```
+> This makes sure you clone only the most recent commit and all files to avoid cloning every commit history as image files have been resized and hence will only take space on your local machine for what you don't need.
 
 Create a virtual environment with the name (`AI-Hacktober-MLSA`)
 

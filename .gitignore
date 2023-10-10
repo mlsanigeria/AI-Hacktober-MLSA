@@ -3,6 +3,13 @@
 /lib/
 /etc/
 /share/
-*.AI-Hacktober-MLSA
-AI-Hacktober-MLSA
+<<<<<<< HEAD
+*.env
+venv
 pyvenv.cfg
+=======
+*.env
+venv
+pyvenv.cfg
+lib64
+>>>>>>> 192b4157e3392668c194ffbb2a94182ef6efd0bb
