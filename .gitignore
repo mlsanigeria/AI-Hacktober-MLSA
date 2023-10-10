@@ -3,6 +3,6 @@
 /lib/
 /etc/
 /share/
-*.env
-venv
+*.AI-Hacktober-MLSA
+AI-Hacktober-MLSA
 pyvenv.cfg
