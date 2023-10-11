@@ -5,9 +5,15 @@
 /share/
 *.env
 <<<<<<< HEAD
+<<<<<<< HEAD
 venv
 =======
 venv
 pyvenv.cfg
 lib64
 >>>>>>> 875e090092874b8666533f89590c4d844bb005ac
+=======
+venv
+pyvenv.cfg
+lib64
+>>>>>>> 59c338c0174ab92ba97137a492daa21330ffc3bb

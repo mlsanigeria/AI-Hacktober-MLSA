@@ -1,8 +1,12 @@
 from PIL import Image
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from PIL import ExifTags
 >>>>>>> 875e090092874b8666533f89590c4d844bb005ac
+=======
+from PIL import ExifTags
+>>>>>>> 59c338c0174ab92ba97137a492daa21330ffc3bb
 import os
 
 building_types = ["Bungalow", "High-rise", "Storey-building"]
@@ -12,6 +16,7 @@ repository_path = "./Project_1/Data/"
 
 for building in building_types:
     directory_path = os.path.join(repository_path, building)
+<<<<<<< HEAD
 <<<<<<< HEAD
     print(directory_path)
     # Check if the directory exists
@@ -40,6 +45,8 @@ for building in building_types:
                 new_image.save(os.path.join(directory_path, filename))
                 index += 1
 =======
+=======
+>>>>>>> 59c338c0174ab92ba97137a492daa21330ffc3bb
     # print(directory_path)
     # Check if the directory exists
     if os.path.exists(directory_path):
@@ -73,7 +80,11 @@ for building in building_types:
                 if filename.split(".")[-1] != "jpeg":
                     os.remove(os.path.join(directory_path, filename))
                     filename = "".join([filename.split(".")[0], ".jpeg"])
-                    image.save(os.path.join(directory_path, filename))
+                    try:
+                        image.save(os.path.join(directory_path, filename))
+                    except:
+                        image = image.convert('RGB')
+                        image.save(os.path.join(directory_path, filename))
             else:
                 # Handling EXIF metadata stored in the image.
                 try:
@@ -96,7 +107,15 @@ for building in building_types:
 
                 if filename.split(".")[-1] != "jpeg":
                     filename = "".join([filename.split(".")[0], ".jpeg"])
+<<<<<<< HEAD
                 new_image.save(os.path.join(directory_path, filename))
 >>>>>>> 875e090092874b8666533f89590c4d844bb005ac
+=======
+                try:
+                    new_image.save(os.path.join(directory_path, filename))
+                except:
+                    new_image = new_image.convert('RGB')
+                    new_image.save(os.path.join(directory_path, filename))
+>>>>>>> 59c338c0174ab92ba97137a492daa21330ffc3bb
 
 print("Successfully resized images for Project 1.")

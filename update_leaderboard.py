@@ -71,11 +71,16 @@ def get_sorted_pr():
                 avi[pr_by] = pr['user']['avatar_url']
     # Print the sorted list of users and their merged pull request counts
 <<<<<<< HEAD
+<<<<<<< HEAD
     sorted_users = sorted(merged_prs_count_by_user.items(), key=lambda x: x[1], reverse=True)
 =======
     # sorted_users = sorted(merged_prs_count_by_user.items(), key=lambda x: x[1], reverse=True)
     sorted_users = sorted(merged_prs_count_by_user.items(), key=lambda x: (-x[1], x[0].lower()))
 >>>>>>> 875e090092874b8666533f89590c4d844bb005ac
+=======
+    # sorted_users = sorted(merged_prs_count_by_user.items(), key=lambda x: x[1], reverse=True)
+    sorted_users = sorted(merged_prs_count_by_user.items(), key=lambda x: (-x[1], x[0].lower()))
+>>>>>>> 59c338c0174ab92ba97137a492daa21330ffc3bb
 
     # Sort the users by the number of merged pull requests in descending order
     return sorted_users, avi
@@ -87,6 +92,7 @@ def leaderboard_data():
     rank = 1
     last_count = 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     for user, count in sorted_users:
         if count == last_count:
             rank -= 1
@@ -96,6 +102,8 @@ def leaderboard_data():
             leaderboard_data.append({"rank":rank, "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
         rank += 1
 =======
+=======
+>>>>>>> 59c338c0174ab92ba97137a492daa21330ffc3bb
     pos = 1
     for user, count in sorted_users:
         if count == last_count:
@@ -106,7 +114,10 @@ def leaderboard_data():
             leaderboard_data.append({"position": pos, "rank":rank, "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
         rank += 1
         pos += 1
+<<<<<<< HEAD
 >>>>>>> 875e090092874b8666533f89590c4d844bb005ac
+=======
+>>>>>>> 59c338c0174ab92ba97137a492daa21330ffc3bb
     return leaderboard_data
 
 leaderboard_data = leaderboard_data()
@@ -144,12 +155,17 @@ with open("LEADERBOARD.md", "w") as readme_file:
 
 # filter only the top 10 contributors
 <<<<<<< HEAD
+<<<<<<< HEAD
 max_rank = 10
 filtered_data = [contributor for contributor in leaderboard_data if contributor['rank'] <= max_rank]
 =======
 max_position = 10
 filtered_data = [contributor for contributor in leaderboard_data if contributor['position'] <= max_position]
 >>>>>>> 875e090092874b8666533f89590c4d844bb005ac
+=======
+max_position = 10
+filtered_data = [contributor for contributor in leaderboard_data if contributor['position'] <= max_position]
+>>>>>>> 59c338c0174ab92ba97137a492daa21330ffc3bb
 
 # Generate the Markdown content for the README
 readme_content = """
