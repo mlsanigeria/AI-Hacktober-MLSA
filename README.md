@@ -41,7 +41,7 @@ We maintain a leaderboard to track your contributions and their impact on our pr
 | 4 | <img src='https://avatars.githubusercontent.com/u/118164520?v=4' alt='Avatar' width='30' height='30'> | [Ajlightpro](https://github.com/Ajlightpro) | 1 |
 | 4 | <img src='https://avatars.githubusercontent.com/u/39243097?v=4' alt='Avatar' width='30' height='30'> | [andrefpoliveira](https://github.com/andrefpoliveira) | 1 |
 | 4 | <img src='https://avatars.githubusercontent.com/u/61966991?v=4' alt='Avatar' width='30' height='30'> | [Augusta02](https://github.com/Augusta02) | 1 |
-| 4 | <img src='https://avatars.githubusercontent.com/u/110293491?v=4' alt='Avatar' width='30' height='30'> | [Leommm-byte](https://github.com/Leommm-byte) | 1 |
+| 4 | <img src='https://avatars.githubusercontent.com/u/57640426?v=4' alt='Avatar' width='30' height='30'> | [Dantochi](https://github.com/Dantochi) | 1 |
 
 Thank you to all our fantastic contributors for their hard work and dedication!
 
