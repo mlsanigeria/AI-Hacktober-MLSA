@@ -42,7 +42,11 @@ for building in building_types:
                 if filename.split(".")[-1] != "jpeg":
                     os.remove(os.path.join(directory_path, filename))
                     filename = "".join([filename.split(".")[0], ".jpeg"])
-                    image.save(os.path.join(directory_path, filename))
+                    try:
+                        image.save(os.path.join(directory_path, filename))
+                    except:
+                        image = image.convert('RGB')
+                        image.save(os.path.join(directory_path, filename))
             else:
                 # Handling EXIF metadata stored in the image.
                 try:
@@ -65,6 +69,10 @@ for building in building_types:
 
                 if filename.split(".")[-1] != "jpeg":
                     filename = "".join([filename.split(".")[0], ".jpeg"])
-                new_image.save(os.path.join(directory_path, filename))
+                try:
+                    new_image.save(os.path.join(directory_path, filename))
+                except:
+                    new_image = new_image.convert('RGB')
+                    new_image.save(os.path.join(directory_path, filename))
 
 print("Successfully resized images for Project 1.")
