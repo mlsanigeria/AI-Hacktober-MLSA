@@ -106,14 +106,14 @@ leaderboard_content = """
 
 Welcome to the Official Leaderboard, showcasing our top contributors and their impressive contributions.
 
-| Rank || Contributor | Merged PRs |
-| ---- | -- |----------- | ---------- |
+| S/N | Rank || Contributor | Merged PRs |
+|--| ---- | -- |----------- | ---------- |
 {}
 
 Thank you to all our fantastic contributors for their hard work and dedication!
 
 """.format("\n".join(
-    f"| {entry['rank']} | {entry['avi']} | {entry['contributor']} | {entry['merged_prs']} |"
+    f"| {entry['position']} | {entry['rank']} | {entry['avi']} | {entry['contributor']} | {entry['merged_prs']} |"
     for entry in leaderboard_data
 ))
 
@@ -135,14 +135,14 @@ filtered_data = [contributor for contributor in leaderboard_data if contributor[
 readme_content = """
 ### Top 10 Contributors
 
-| Rank || Contributor | Merged PRs |
-| ---- | -- |----------- | ---------- |
+| S/N | Rank || Contributor | Merged PRs |
+|--| ---- | -- |----------- | ---------- |
 {}
 
 Thank you to all our fantastic contributors for their hard work and dedication!
 
 """.format("\n".join(
-    f"| {entry['rank']} | {entry['avi']} | {entry['contributor']} | {entry['merged_prs']} |"
+    f"| {entry['position']} | {entry['rank']} | {entry['avi']} | {entry['contributor']} | {entry['merged_prs']} |"
     for entry in filtered_data
 ))
 
