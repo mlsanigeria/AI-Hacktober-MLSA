@@ -32,7 +32,7 @@ We maintain a leaderboard to track your contributions and their impact on our pr
 
 | S/N | Rank || Contributor | Merged PRs |
 |--| ---- | -- |----------- | ---------- |
-| 1 | 1 | <img src='https://avatars.githubusercontent.com/u/105247084?v=4' alt='Avatar' width='30' height='30'> | [ayoni02](https://github.com/ayoni02) | 5 |
+| 1 | 1 | <img src='https://avatars.githubusercontent.com/u/105247084?v=4' alt='Avatar' width='30' height='30'> | [ayoni02](https://github.com/ayoni02) | 6 |
 | 2 | 2 | <img src='https://avatars.githubusercontent.com/u/29100815?v=4' alt='Avatar' width='30' height='30'> | [CharlesEdeki](https://github.com/CharlesEdeki) | 3 |
 | 3 | 2 | <img src='https://avatars.githubusercontent.com/u/59745353?v=4' alt='Avatar' width='30' height='30'> | [Josiah-Adesola](https://github.com/Josiah-Adesola) | 3 |
 | 4 | 3 | <img src='https://avatars.githubusercontent.com/u/73951563?v=4' alt='Avatar' width='30' height='30'> | [eniola-ajala](https://github.com/eniola-ajala) | 2 |
