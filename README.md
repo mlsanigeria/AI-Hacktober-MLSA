@@ -30,18 +30,18 @@ We maintain a leaderboard to track your contributions and their impact on our pr
 <!-- Section Start -->
 ### Top 10 Contributors
 
-| Rank || Contributor | Merged PRs |
-| ---- | -- |----------- | ---------- |
-| 1 | <img src='https://avatars.githubusercontent.com/u/105247084?v=4' alt='Avatar' width='30' height='30'> | [ayoni02](https://github.com/ayoni02) | 4 |
-| 2 | <img src='https://avatars.githubusercontent.com/u/29100815?v=4' alt='Avatar' width='30' height='30'> | [CharlesEdeki](https://github.com/CharlesEdeki) | 3 |
-| 2 | <img src='https://avatars.githubusercontent.com/u/59745353?v=4' alt='Avatar' width='30' height='30'> | [Josiah-Adesola](https://github.com/Josiah-Adesola) | 3 |
-| 3 | <img src='https://avatars.githubusercontent.com/u/89352799?v=4' alt='Avatar' width='30' height='30'> | [Gbekoilias](https://github.com/Gbekoilias) | 2 |
-| 4 | <img src='https://avatars.githubusercontent.com/u/118164520?v=4' alt='Avatar' width='30' height='30'> | [Ajlightpro](https://github.com/Ajlightpro) | 1 |
-| 4 | <img src='https://avatars.githubusercontent.com/u/39243097?v=4' alt='Avatar' width='30' height='30'> | [andrefpoliveira](https://github.com/andrefpoliveira) | 1 |
-| 4 | <img src='https://avatars.githubusercontent.com/u/73951563?v=4' alt='Avatar' width='30' height='30'> | [eniola-ajala](https://github.com/eniola-ajala) | 1 |
-| 4 | <img src='https://avatars.githubusercontent.com/u/110293491?v=4' alt='Avatar' width='30' height='30'> | [Leommm-byte](https://github.com/Leommm-byte) | 1 |
-| 4 | <img src='https://avatars.githubusercontent.com/u/101010436?v=4' alt='Avatar' width='30' height='30'> | [MichaelOmoniyi](https://github.com/MichaelOmoniyi) | 1 |
-| 4 | <img src='https://avatars.githubusercontent.com/u/56538561?v=4' alt='Avatar' width='30' height='30'> | [pidoxy](https://github.com/pidoxy) | 1 |
+| S/N | Rank || Contributor | Merged PRs |
+|--| ---- | -- |----------- | ---------- |
+| 1 | 1 | <img src='https://avatars.githubusercontent.com/u/105247084?v=4' alt='Avatar' width='30' height='30'> | [ayoni02](https://github.com/ayoni02) | 7 |
+| 2 | 2 | <img src='https://avatars.githubusercontent.com/u/29100815?v=4' alt='Avatar' width='30' height='30'> | [CharlesEdeki](https://github.com/CharlesEdeki) | 3 |
+| 3 | 2 | <img src='https://avatars.githubusercontent.com/u/59745353?v=4' alt='Avatar' width='30' height='30'> | [Josiah-Adesola](https://github.com/Josiah-Adesola) | 3 |
+| 4 | 2 | <img src='https://avatars.githubusercontent.com/u/108756842?v=4' alt='Avatar' width='30' height='30'> | [Odeyiany2](https://github.com/Odeyiany2) | 3 |
+| 5 | 3 | <img src='https://avatars.githubusercontent.com/u/72320718?v=4' alt='Avatar' width='30' height='30'> | [Davisonyeas](https://github.com/Davisonyeas) | 2 |
+| 6 | 3 | <img src='https://avatars.githubusercontent.com/u/73951563?v=4' alt='Avatar' width='30' height='30'> | [eniola-ajala](https://github.com/eniola-ajala) | 2 |
+| 7 | 3 | <img src='https://avatars.githubusercontent.com/u/89352799?v=4' alt='Avatar' width='30' height='30'> | [Gbekoilias](https://github.com/Gbekoilias) | 2 |
+| 8 | 4 | <img src='https://avatars.githubusercontent.com/u/85001695?v=4' alt='Avatar' width='30' height='30'> | [Ahbadman](https://github.com/Ahbadman) | 1 |
+| 9 | 4 | <img src='https://avatars.githubusercontent.com/u/118164520?v=4' alt='Avatar' width='30' height='30'> | [Ajlightpro](https://github.com/Ajlightpro) | 1 |
+| 10 | 4 | <img src='https://avatars.githubusercontent.com/u/39243097?v=4' alt='Avatar' width='30' height='30'> | [andrefpoliveira](https://github.com/andrefpoliveira) | 1 |
 
 Thank you to all our fantastic contributors for their hard work and dedication!
 
