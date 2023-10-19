@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /bin/
 /include/
 /lib/
@@ -9,3 +10,14 @@ venv
 pyvenv.cfg
 lib64
 *.DS_Store
+=======
+/bin/
+/include/
+/lib/
+/etc/
+/share/
+*.env
+venv
+pyvenv.cfg
+lib64
+>>>>>>> 69c6bc1 (My first commit)
