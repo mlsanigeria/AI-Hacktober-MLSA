@@ -20,4 +20,6 @@ lib64
 venv
 pyvenv.cfg
 lib64
+
+./Project_1/Image_Classification_Winonymous/Model
 >>>>>>> 69c6bc1 (My first commit)
