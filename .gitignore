@@ -5,5 +5,7 @@
 /share/
 *.env
 venv
+/AI-Hacktober-MLSA
 pyvenv.cfg
 lib64
+*.DS_Store
