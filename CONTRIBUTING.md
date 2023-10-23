@@ -1,5 +1,3 @@
-# Contribution Guidelines
-
 # Contributing to the Hacktoberfest Repository
 
 Welcome to the Hacktoberfest repository organized by the Microsoft Learn Student Ambassadors in Nigeria! We appreciate your interest in contributing to our projects. Please read this guide to understand how you can participate and make meaningful contributions.
@@ -141,4 +139,7 @@ If you have any questions or need assistance, please feel free to reach out to u
 
 ## 🔗 Links to Resources
 1. [How to Do Your First Pull Request](https://youtu.be/nkuYH40cjo4?si=Cb6U2EKVR_Ns4RLw)
-2. [Translate text and speech with Azure AI services](https://learn.microsoft.com/en-us/training/modules/translate-text-with-translation-service/?wt.mc_id=studentamb_217190)
+2. [Process and Translate Speech with Azure AI Speech Services](https://learn.microsoft.com/en-gb/training/paths/process-translate-speech-azure-cognitive-speech-services/?wt.mc_id=studentamb_217190)
+3. [How to Translate Text with Azure AI Translator in Python](https://learn.microsoft.com/en-us/azure/ai-services/translator/quickstart-text-rest-api?tabs=python#translate-text?wt.mc_id=studentamb_217190)
+4. [Azure Speech Service documentation](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/?wt.mc_id=studentamb_217190)
+5. [Azure AI Translator documentation](https://learn.microsoft.com/en-us/azure/ai-services/translator/?wt.mc_id=studentamb_217190)
