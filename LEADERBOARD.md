@@ -9,11 +9,11 @@ Welcome to the Official Leaderboard, showcasing our top contributors and their i
 | 2 | 2 | <img src='https://avatars.githubusercontent.com/u/59745353?v=4' alt='Avatar' width='30' height='30'> | [Josiah-Adesola](https://github.com/Josiah-Adesola) | 4 |
 | 3 | 2 | <img src='https://avatars.githubusercontent.com/u/108756842?v=4' alt='Avatar' width='30' height='30'> | [Odeyiany2](https://github.com/Odeyiany2) | 4 |
 | 4 | 3 | <img src='https://avatars.githubusercontent.com/u/29100815?v=4' alt='Avatar' width='30' height='30'> | [CharlesEdeki](https://github.com/CharlesEdeki) | 3 |
-| 5 | 4 | <img src='https://avatars.githubusercontent.com/u/72320718?v=4' alt='Avatar' width='30' height='30'> | [Davisonyeas](https://github.com/Davisonyeas) | 2 |
-| 6 | 4 | <img src='https://avatars.githubusercontent.com/u/73951563?v=4' alt='Avatar' width='30' height='30'> | [eniola-ajala](https://github.com/eniola-ajala) | 2 |
-| 7 | 4 | <img src='https://avatars.githubusercontent.com/u/89352799?v=4' alt='Avatar' width='30' height='30'> | [Gbekoilias](https://github.com/Gbekoilias) | 2 |
-| 8 | 4 | <img src='https://avatars.githubusercontent.com/u/58162911?v=4' alt='Avatar' width='30' height='30'> | [VictorUmunna](https://github.com/VictorUmunna) | 2 |
-| 9 | 5 | <img src='https://avatars.githubusercontent.com/u/85001695?v=4' alt='Avatar' width='30' height='30'> | [Ahbadman](https://github.com/Ahbadman) | 1 |
+| 5 | 4 | <img src='https://avatars.githubusercontent.com/u/85001695?v=4' alt='Avatar' width='30' height='30'> | [Ahbadman](https://github.com/Ahbadman) | 2 |
+| 6 | 4 | <img src='https://avatars.githubusercontent.com/u/72320718?v=4' alt='Avatar' width='30' height='30'> | [Davisonyeas](https://github.com/Davisonyeas) | 2 |
+| 7 | 4 | <img src='https://avatars.githubusercontent.com/u/73951563?v=4' alt='Avatar' width='30' height='30'> | [eniola-ajala](https://github.com/eniola-ajala) | 2 |
+| 8 | 4 | <img src='https://avatars.githubusercontent.com/u/89352799?v=4' alt='Avatar' width='30' height='30'> | [Gbekoilias](https://github.com/Gbekoilias) | 2 |
+| 9 | 4 | <img src='https://avatars.githubusercontent.com/u/58162911?v=4' alt='Avatar' width='30' height='30'> | [VictorUmunna](https://github.com/VictorUmunna) | 2 |
 | 10 | 5 | <img src='https://avatars.githubusercontent.com/u/118164520?v=4' alt='Avatar' width='30' height='30'> | [Ajlightpro](https://github.com/Ajlightpro) | 1 |
 | 11 | 5 | <img src='https://avatars.githubusercontent.com/u/39243097?v=4' alt='Avatar' width='30' height='30'> | [andrefpoliveira](https://github.com/andrefpoliveira) | 1 |
 | 12 | 5 | <img src='https://avatars.githubusercontent.com/u/85451366?v=4' alt='Avatar' width='30' height='30'> | [anushka9555](https://github.com/anushka9555) | 1 |
