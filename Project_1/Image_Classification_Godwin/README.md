@@ -3,7 +3,7 @@
 The model achieved an impressive accuracy score of 84% on the testing data. 
 This result demonstrates the effectiveness of the approach used to build the model.
 
-Model Architecture:
+## Model Architecture
 
 This model was created using transfer learning, leveraging the powerful Xception model 
 as a base. Transfer learning is an approach where a pre-trained model is used as a starting 
