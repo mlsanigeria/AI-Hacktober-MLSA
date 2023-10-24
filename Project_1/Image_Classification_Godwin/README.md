@@ -9,7 +9,7 @@ This model was created using transfer learning, leveraging the powerful Xception
 as a base. Transfer learning is an approach where a pre-trained model is used as a starting 
 point for a new task, allowing the model to learn from the patterns and features extracted from a large dataset.
 
-Xception Model:
+## Xception Model
 
 Xception is a deep convolutional neural network architecture that has demonstrated strong 
 performance in various computer vision tasks. It is known for its ability to capture intricate 
