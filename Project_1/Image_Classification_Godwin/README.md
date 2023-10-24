@@ -1,4 +1,4 @@
-Model Accuracy:
+## Model Accuracy
 
 The model achieved an impressive accuracy score of 84% on the testing data. 
 This result demonstrates the effectiveness of the approach used to build the model.
