@@ -15,7 +15,7 @@ Xception is a deep convolutional neural network architecture that has demonstrat
 performance in various computer vision tasks. It is known for its ability to capture intricate 
 features within images, making it an ideal candidate for transfer learning.
 
-Fine-Tuning:
+## Fine-Tuning
 
 To adapt the Xception model for the specific task at hand, the base model was fine-tuned. 
 Fine-tuning involves adjusting the weights of the pre-trained model to better suit the target task. 
