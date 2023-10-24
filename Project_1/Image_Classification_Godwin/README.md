@@ -21,7 +21,7 @@ To adapt the Xception model for the specific task at hand, the base model was fi
 Fine-tuning involves adjusting the weights of the pre-trained model to better suit the target task. 
 In this case, the base model's weights were frozen to preserve the knowledge gained from the original dataset.
 
-Adding Extra Layers:
+## Adding Extra Layers
 
 To tailor the model to the specific problem, additional layers were added on top of the Xception base. 
 These extra layers allow the model to learn task-specific features and make predictions based on the 
