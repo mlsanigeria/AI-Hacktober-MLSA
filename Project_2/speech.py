@@ -30,7 +30,7 @@ def Transcribe():
         #print(command)
     else:
 
-        print(speech.reason)
+        # print(speech.reason)
         if speech.reason == speech_sdk.ResultReason.Canceled:
             cancellation = speech.cancellation_details
             print(cancellation.reason)
