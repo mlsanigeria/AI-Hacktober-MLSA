@@ -15,7 +15,7 @@ The data was collected via a survey from Nigerian students in tertiary instituti
 - Label encoding 
 
 ### Insights
-By applying bi-variate analysis, the following are some of the insights were gathered from the data: 
+By applying univariate and bi-variate analysis, the following are some of the insights were gathered from the data: 
 
 - A greater proportion of first-year students are between 16 and 18, however a younger age does not imply better performance
 - There is a moderate positive relationship between JAMB scores and the GPA of first year students
