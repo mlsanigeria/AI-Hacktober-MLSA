@@ -8,7 +8,7 @@ The following python libaries were used for the different areas of the project.
 - Machine Learning : `scikit-learn` `joblib`
 
 ### Data Acquision & Preprocessing Techniques
-The data was collected via survey from students from all over Nigeria. The link to the survey can be found (https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b3WhuDg-4D1CshxaPwVhg9lUQkhTSFFKVDJESFlPM0MwNUgxNUVVVkNVTC4u)[here]. The following techniques were applied to preprocess the data:
+The data was collected via survey from students from all over Nigeria. The link to the survey can be found [https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b3WhuDg-4D1CshxaPwVhg9lUQkhTSFFKVDJESFlPM0MwNUgxNUVVVkNVTC4u](here). The following techniques were applied to preprocess the data:
 - Removing missing values, irrelevant columns and rows
 - Treating erroneous values 
 - Converting data to the right data type
@@ -26,6 +26,7 @@ By applying bi-variate analysis, the following are some of the insights were gat
 ### Notebook Structure
 This depicts the workflow followed in the notebook.
 
+```bash
 ├── Data Collection
 ├── Data Preprocessing
 │   ├── renaming columns
@@ -39,6 +40,6 @@ This depicts the workflow followed in the notebook.
 │   ├── model training
 │   ├── model evaluation
 │   ├── saving the model
-
+```
 ### Modelling
 The optimal model is the `Random Forest Regressor` with a `RMSE` OF 0.108 and a `MAE` OF 0.08
