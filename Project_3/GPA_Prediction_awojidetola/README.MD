@@ -8,7 +8,7 @@ The following python libaries were used for the different areas of the project.
 - Machine Learning : `scikit-learn` `joblib`
 
 ### Data Acquision & Preprocessing Techniques
-The data was collected via survey from students from all over Nigeria. The link to the survey can be found [https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b3WhuDg-4D1CshxaPwVhg9lUQkhTSFFKVDJESFlPM0MwNUgxNUVVVkNVTC4u](here). The following techniques were applied to preprocess the data:
+The data was collected via a survey from Nigerian students in tertiary institutions. The link to the survey can be found [here](https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b3WhuDg-4D1CshxaPwVhg9lUQkhTSFFKVDJESFlPM0MwNUgxNUVVVkNVTC4u/). The following techniques were applied to preprocess the data:
 - Removing missing values, irrelevant columns and rows
 - Treating erroneous values 
 - Converting data to the right data type
@@ -31,7 +31,7 @@ This depicts the workflow followed in the notebook.
 ├── Data Preprocessing
 │   ├── renaming columns
 │   ├── treating missing data
-│   ├── converting columns to categorical/numerical
+│   ├── converting columns to categorical/numerical data types
 ├── Data Exploration
 ├── Feature Engineering
 │   ├── Label Encoding
@@ -42,4 +42,4 @@ This depicts the workflow followed in the notebook.
 │   ├── saving the model
 ```
 ### Modelling
-The optimal model is the `Random Forest Regressor` with a `RMSE` OF 0.108 and a `MAE` OF 0.08
+The optimal model is the `Random Forest Regressor` with a `RMSE` of 0.108 and a `MAE` of 0.08
