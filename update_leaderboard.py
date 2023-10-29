@@ -80,19 +80,33 @@ def leaderboard_data():
     # Calculate the leaderboard data
     sorted_users, avi = get_sorted_pr()
     leaderboard_data = []
-    rank = 1
-    last_count = 0
-    pos = 1
-    for user, count in sorted_users:
-        if count == last_count:
-            rank -= 1
-            leaderboard_data.append({"position": pos, "rank":rank, "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
-        else:
-            last_count = count
-            leaderboard_data.append({"position": pos, "rank":rank, "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
-        rank += 1
-        pos += 1
+    medals = {
+        1: "🥇",  # Gold Medal
+        2: "🥈",  # Silver Medal
+        3: "🥈",  # Silver Medal
+    }
+    medal_count = 0
+    last_count = None
+
+    for pos, (user, count) in enumerate(sorted_users, start=1):
+        if count != last_count:
+            # Increment medal count only if the count is different from the previous user
+            medal_count += 1
+
+        # Assign medals based on rank
+        rank_medal = medals.get(medal_count, str(medal_count))
+
+        leaderboard_data.append({
+            "position": pos,
+            "rank": rank_medal,
+            "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>",
+            "contributor": f"[{user}](https://github.com/{user})",
+            "merged_prs": f"{count}"
+        })
+        last_count = count
+
     return leaderboard_data
+
 
 leaderboard_data = leaderboard_data()
 
