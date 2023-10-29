@@ -38,14 +38,14 @@ Thank you to all our fantastic contributors for their hard work and dedication! 
 |--| ---- | -- |----------- | ---------- |
 | 1 | 🥇 | <img src='https://avatars.githubusercontent.com/u/105247084?v=4' alt='Avatar' width='30' height='30'> | [ayoni02](https://github.com/ayoni02) | 7 |
 | 2 | 🥈 | <img src='https://avatars.githubusercontent.com/u/108756842?v=4' alt='Avatar' width='30' height='30'> | [Odeyiany2](https://github.com/Odeyiany2) | 6 |
-| 3 | 🥈 | <img src='https://avatars.githubusercontent.com/u/59745353?v=4' alt='Avatar' width='30' height='30'> | [Josiah-Adesola](https://github.com/Josiah-Adesola) | 4 |
+| 3 | 🥉 | <img src='https://avatars.githubusercontent.com/u/59745353?v=4' alt='Avatar' width='30' height='30'> | [Josiah-Adesola](https://github.com/Josiah-Adesola) | 4 |
 | 4 | 4 | <img src='https://avatars.githubusercontent.com/u/49078266?v=4' alt='Avatar' width='30' height='30'> | [awojidetola](https://github.com/awojidetola) | 3 |
-| 5 | 4 | <img src='https://avatars.githubusercontent.com/u/29100815?v=4' alt='Avatar' width='30' height='30'> | [CharlesEdeki](https://github.com/CharlesEdeki) | 3 |
-| 6 | 4 | <img src='https://avatars.githubusercontent.com/u/89352799?v=4' alt='Avatar' width='30' height='30'> | [Gbekoilias](https://github.com/Gbekoilias) | 3 |
-| 7 | 5 | <img src='https://avatars.githubusercontent.com/u/85001695?v=4' alt='Avatar' width='30' height='30'> | [Ahbadman](https://github.com/Ahbadman) | 2 |
-| 8 | 5 | <img src='https://avatars.githubusercontent.com/u/72320718?v=4' alt='Avatar' width='30' height='30'> | [Davisonyeas](https://github.com/Davisonyeas) | 2 |
-| 9 | 5 | <img src='https://avatars.githubusercontent.com/u/73951563?v=4' alt='Avatar' width='30' height='30'> | [eniola-ajala](https://github.com/eniola-ajala) | 2 |
-| 10 | 5 | <img src='https://avatars.githubusercontent.com/u/91465323?v=4' alt='Avatar' width='30' height='30'> | [Godwin-T](https://github.com/Godwin-T) | 2 |
+| 5 | 5 | <img src='https://avatars.githubusercontent.com/u/29100815?v=4' alt='Avatar' width='30' height='30'> | [CharlesEdeki](https://github.com/CharlesEdeki) | 3 |
+| 6 | 6 | <img src='https://avatars.githubusercontent.com/u/89352799?v=4' alt='Avatar' width='30' height='30'> | [Gbekoilias](https://github.com/Gbekoilias) | 3 |
+| 7 | 7 | <img src='https://avatars.githubusercontent.com/u/95109808?v=4' alt='Avatar' width='30' height='30'> | [KimFarida](https://github.com/KimFarida) | 3 |
+| 8 | 8 | <img src='https://avatars.githubusercontent.com/u/85001695?v=4' alt='Avatar' width='30' height='30'> | [Ahbadman](https://github.com/Ahbadman) | 2 |
+| 9 | 9 | <img src='https://avatars.githubusercontent.com/u/72320718?v=4' alt='Avatar' width='30' height='30'> | [Davisonyeas](https://github.com/Davisonyeas) | 2 |
+| 10 | 10 | <img src='https://avatars.githubusercontent.com/u/73951563?v=4' alt='Avatar' width='30' height='30'> | [eniola-ajala](https://github.com/eniola-ajala) | 2 |
 
 Thank you to all our fantastic contributors for their hard work and dedication!
 
