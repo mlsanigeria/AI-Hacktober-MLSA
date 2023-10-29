@@ -24,7 +24,7 @@ By applying univariate and bi-variate analysis, the following are some of the in
 - Students who attend extra tutorials tend to perform better than those who don't 
 - Students who have a higher monthly allowance tend to have a higher GPA than their counterparts.
 
-### Streamlit
+### Deployment
 The model was deployed as a web application using streamlit. To run locallay, use : `streamlit run streamlit_app.py`.
 
 ### Notebook Structure
