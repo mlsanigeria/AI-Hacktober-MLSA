@@ -1,6 +1,5 @@
 import streamlit as st 
 import pandas as pd
-from io import StringIO
 from SpeechTranslation import translate
 from speech import Transcribe
 
