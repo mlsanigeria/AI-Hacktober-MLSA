@@ -51,7 +51,7 @@ Thank you to all our fantastic contributors for their hard work and dedication!
 
 <!-- Section End -->
 
-Check out the full leaderboard [here](https://github.com/mlsanigeria/AI-Hacktober-MLSA/blob/main/LEADERBOARD.md).
+Check out the full leaderboard [here](LEADERBOARD.md).
 
 ## **🥇 Prizes**
 
