@@ -6,6 +6,7 @@ The following python libaries were used for the different areas of the project.
 - Data Exploration & Preprocessing : `pandas` `numpy` `openpyxl`
 - Data Visualization : `matplotlib` `seaborn`
 - Machine Learning : `scikit-learn` `joblib`
+- Deploymnet : `streamlit`
 
 ### Data Acquision & Preprocessing Techniques
 The data was collected via a survey from Nigerian students in tertiary institutions. The link to the survey can be found [here](https://forms.office.com/pages/responsepage.aspx?id=oBzDhDusrk6tEVGdgCM-b3WhuDg-4D1CshxaPwVhg9lUQkhTSFFKVDJESFlPM0MwNUgxNUVVVkNVTC4u/). The following techniques were applied to preprocess the data:
@@ -22,6 +23,9 @@ By applying univariate and bi-variate analysis, the following are some of the in
 - Students who use extra materials tend to perform better than their peers. 
 - Students who attend extra tutorials tend to perform better than those who don't 
 - Students who have a higher monthly allowance tend to have a higher GPA than their counterparts.
+
+### Streamlit
+The model was deployed as a web application using streamlit. To run locallay, use : `streamlit run streamlit_app.py`.
 
 ### Notebook Structure
 This depicts the workflow followed in the notebook.
