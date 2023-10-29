@@ -80,30 +80,27 @@ def leaderboard_data():
     # Calculate the leaderboard data
     sorted_users, avi = get_sorted_pr()
     leaderboard_data = []
+    pos = 1
+    
+    # Dictionary to store medals
     medals = {
         1: "🥇",  # Gold Medal
         2: "🥈",  # Silver Medal
-        3: "🥈",  # Silver Medal
+        3: "🥉",  # Bronze Medal
     }
-    medal_count = 0
-    last_count = None
-
-    for pos, (user, count) in enumerate(sorted_users, start=1):
-        if count != last_count:
-            # Increment medal count only if the count is different from the previous user
-            medal_count += 1
-
-        # Assign medals based on rank
-        rank_medal = medals.get(medal_count, str(medal_count))
-
+    
+    for user, count in sorted_users:
+        # Assign medals based on position
+        medal = medals.get(pos, str(pos))
         leaderboard_data.append({
             "position": pos,
-            "rank": rank_medal,
+            "rank": medal,
             "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>",
             "contributor": f"[{user}](https://github.com/{user})",
             "merged_prs": f"{count}"
         })
-        last_count = count
+        pos += 1
+
 
     return leaderboard_data
 
@@ -122,8 +119,8 @@ leaderboard_content = """
 
 Celebrate the remarkable contributions of our top contributors.
 
-| Rank | Contributor | Merged PRs |
-|------|-------------|------------|
+| S/N | Rank || Contributor | Merged PRs |
+|--| ---- | -- |----------- | ---------- |
 {}
 
 A heartfelt **thank you** to all our fantastic contributors for their hard work and dedication! Together, we're making a difference in the open-source community.
