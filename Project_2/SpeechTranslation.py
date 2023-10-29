@@ -20,7 +20,7 @@ params = {
     'from': 'en',
     'to': ['yo', 'ig','ha']
 }
-def translate(language, input_data = Transcribe()):
+def translate(language, text = Transcribe()):
     headers = {
         'Ocp-Apim-Subscription-Key': key,
         # location required if you're using a multi-service or regional (not global) resource.
@@ -30,15 +30,9 @@ def translate(language, input_data = Transcribe()):
     }
 
     # You can pass more than one object in body.
-    #body = [{
-     #   'text': text
-    #}]
-    if isinstance(input_data, str):
-        body = [{'text': input_data}]
-    elif isinstance(input_data, bytes):
-        body = [{'audio': input_data}]
-    else:
-        return "Invalid input data"
+    body = [{
+        'text': text
+    }]
 
     request = requests.post(constructed_url, params=params, headers=headers, json=body)
     response = request.json()
