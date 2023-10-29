@@ -19,7 +19,7 @@ dict_lang = {"Yoruba": "yo",
 if option=='A text':
     title = st.text_input('English Text', 'Enter your english text here?')
     translation = translate(dict_lang[language], title)
-    st.write('Your translation from English to {language} is: ', translation)
+    st.write(f'Your translation from English to {language} is: ', translation)
 
 elif option== 'An audio file':
     uploaded_file = st.file_uploader("Upload an english audio file")
