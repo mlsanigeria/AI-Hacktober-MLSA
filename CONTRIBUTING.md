@@ -85,7 +85,7 @@ Contribute to image classification tasks:
 
 3. Work on image classification tasks in your notebook. Minimum contribution: data preprocessing (images).
 
-4. For modeling contributions, the model must achieve a minimum of 60% accuracy for validation.
+4. For modelling contributions, the model must achieve a minimum of 60% accuracy for validation.
 
 5. The team will evaluate the model's performance using a separate test dataset.
 
