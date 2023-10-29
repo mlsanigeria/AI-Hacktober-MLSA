@@ -13,7 +13,7 @@ Welcome to the Hacktoberfest repository organized by the Microsoft Learn Student
    git clone --depth 1 https://github.com/{user_name}/AI-Hacktober-MLSA.git
    ```
 
-   > This ensures you clone only the most recent commit and all files to avoid unnecessary commit history.
+   > This ensures you clone only the most recent commit and all files to avoid unnecessary commit history (image files that have been resized).
 
 2. **Set Up Virtual Environment:**
 
