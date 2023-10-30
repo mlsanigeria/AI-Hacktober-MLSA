@@ -2,6 +2,9 @@ import streamlit as st
 from SpeechTranslation import translate
 from speech import Transcribe
 
+with open("style.css") as f:
+    st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
+
 option = st.selectbox(
     'What would you like to translate?',
     ('A text', 'An audio file'))
