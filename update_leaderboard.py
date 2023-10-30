@@ -80,19 +80,30 @@ def leaderboard_data():
     # Calculate the leaderboard data
     sorted_users, avi = get_sorted_pr()
     leaderboard_data = []
-    rank = 1
-    last_count = 0
     pos = 1
+    
+    # Dictionary to store medals
+    medals = {
+        1: "🥇",  # Gold Medal
+        2: "🥈",  # Silver Medal
+        3: "🥉",  # Bronze Medal
+    }
+    
     for user, count in sorted_users:
-        if count == last_count:
-            rank -= 1
-            leaderboard_data.append({"position": pos, "rank":rank, "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
-        else:
-            last_count = count
-            leaderboard_data.append({"position": pos, "rank":rank, "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
-        rank += 1
+        # Assign medals based on position
+        medal = medals.get(pos, str(pos))
+        leaderboard_data.append({
+            "position": pos,
+            "rank": medal,
+            "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>",
+            "contributor": f"[{user}](https://github.com/{user})",
+            "merged_prs": f"{count}"
+        })
         pos += 1
+
+
     return leaderboard_data
+
 
 leaderboard_data = leaderboard_data()
 
@@ -104,16 +115,22 @@ leaderboard_data = leaderboard_data()
 leaderboard_content = """
 # GitHub Leaderboard
 
-Welcome to the Official Leaderboard, showcasing our top contributors and their impressive contributions.
+🏆 **Welcome to the Official Leaderboard!** 🏆
 
-| Rank || Contributor | Merged PRs |
-| ---- | -- |----------- | ---------- |
+Celebrate the remarkable contributions of our top contributors.
+
+| S/N | Rank || Contributor | Merged PRs |
+|--| ---- | -- |----------- | ---------- |
 {}
 
-Thank you to all our fantastic contributors for their hard work and dedication!
+A heartfelt **thank you** to all our fantastic contributors for their hard work and dedication! Together, we're making a difference in the open-source community.
+
+---
+
+*Want to see your name on the leaderboard? Contribute to our project on [GitHub](https://github.com/mlsanigeria/AI-Hacktober-MLSA) and make an impact!*
 
 """.format("\n".join(
-    f"| {entry['rank']} | {entry['avi']} | {entry['contributor']} | {entry['merged_prs']} |"
+    f"| {entry['position']} | {entry['rank']} | {entry['avi']} | {entry['contributor']} | {entry['merged_prs']} |"
     for entry in leaderboard_data
 ))
 
@@ -135,14 +152,16 @@ filtered_data = [contributor for contributor in leaderboard_data if contributor[
 readme_content = """
 ### Top 10 Contributors
 
-| Rank || Contributor | Merged PRs |
-| ---- | -- |----------- | ---------- |
+Thank you to all our fantastic contributors for their hard work and dedication! Here are our top 10 contributors:
+
+| S/N | Rank || Contributor | Merged PRs |
+|--| ---- | -- |----------- | ---------- |
 {}
 
 Thank you to all our fantastic contributors for their hard work and dedication!
 
 """.format("\n".join(
-    f"| {entry['rank']} | {entry['avi']} | {entry['contributor']} | {entry['merged_prs']} |"
+    f"| {entry['position']} | {entry['rank']} | {entry['avi']} | {entry['contributor']} | {entry['merged_prs']} |"
     for entry in filtered_data
 ))
 
