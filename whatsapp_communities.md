@@ -17,3 +17,4 @@ Here are WhatsApp communities specific to different universities. Join the one a
 | Ekiti State University | https://chat.whatsapp.com/ENSHlijEVC49zqNlVWjQuc |
 | University of Benin | https://chat.whatsapp.com/F3d40fIigvDHSbkoOleN1q |
 | Yaba College of Technology | https://chat.whatsapp.com/FSs7zUnsgCd5M4S7ILVJii |
+| Obafemi Awolowo University | https://chat.whatsapp.com/LpokXO6VDSeLNGi6Eln1c2  | 

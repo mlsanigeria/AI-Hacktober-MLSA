@@ -9,3 +9,4 @@ venv
 pyvenv.cfg
 lib64
 *.DS_Store
+.ipynb_checkpoints
