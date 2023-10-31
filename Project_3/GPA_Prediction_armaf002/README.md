@@ -1,44 +1,52 @@
-# GPA Prediction Project - Data Preprocessing Readme
 
-## Introduction
 
-This readme provides an overview of the data preprocessing steps undertaken in the GPA prediction project. Data preprocessing is a crucial part of any data science project, as it ensures that the data is clean, structured, and ready for analysis and modeling.
+# GPA Prediction Readme
 
-## Data Loading
+This readme provides an overview of the project for predicting GPA (CGPA).
 
-The data for this project is sourced from an Excel file named 'year1_gpa.xlsx'. The following Python libraries were used for data loading and initial exploration:
+## Table of Contents
+- [Project Description](#project-description)
+- [Data Importation](#data-importation)
+- [Data Preprocessing](#data-preprocessing)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Data Transformation](#data-transformation)
+- [Feature Engineering](#feature-engineering)
+- [Data Splitting](#data-splitting)
+- [Model Development and Evaluation](#model-development-and-evaluation)
+- [Model Selection and Performance](#model-selection-and-performance)
 
-- `numpy`
-- `pandas`
-- `matplotlib` for data visualization
-- `seaborn` for data visualization
+### Project Description
 
-## Data Preprocessing
+The project's primary objective is to predict the Grade Point Average (CGPA) of students based on various features provided in the dataset. These features include academic performance, demographic information, study habits, and more. The project uses machine learning regression models to predict CGPA and evaluate their performance.
 
-### Column Name Standardization
+### Data Importation
 
-To ensure consistency and ease of analysis, the column names were standardized by converting them to lowercase and replacing spaces with underscores. A dictionary was created to map the original column names to their standardized forms.
+In this step, the required libraries and dependencies are imported, and the dataset is loaded from the 'year_gpa.xlsx' Excel file. The dataset is then examined, and its structure is understood.
 
-### Handling Missing Values
+### Data Preprocessing
 
-Missing values are a common issue in real-world datasets. Several strategies were applied to handle missing values in the dataset:
+Data preprocessing is a crucial step to ensure that the dataset is clean and ready for modeling. This step includes renaming columns, handling missing values, and converting data types. Several columns are mapped from string values to numerical representations, and outliers are addressed. The dataset is prepared for further analysis.
 
-1. **Columns with All NaN Values:** Columns with no meaningful data (e.g., 'Name' and 'Last_modified_time') were dropped.
+### Exploratory Data Analysis (EDA)
 
-2. **Fill Missing Values Based on Gender:** Missing values in columns such as 'Use_of_extra_materials' and 'Monthly_allowance' were filled based on the gender of the students. The mean and mode values for these columns were calculated for each gender, and missing values were imputed accordingly.
+EDA is performed to gain insights into the dataset. The distribution of CGPA, relationships between numerical variables, and visualizations of categorical features are presented. EDA helps to understand the data and identify potential patterns.
 
-3. **Handling Remaining Missing Values:** Any remaining missing values in the 'CGPA' column were handled by filling them with the mean of the column. This ensures that the 'CGPA' column contains numeric data.
+### Data Transformation
 
-4. **Grading System Mapping:** The 'Grading_system' column values were mapped to a common scale to ensure consistency and facilitate analysis. Numeric data types were enforced if necessary. Specifically, the 'A' value in the 'Grading_system' column was replaced with a numeric value to prevent it from being dropped.
-
-### Data Type Conversion
-
-The 'CGPA' column, which represents the Cumulative Grade Point Average, was processed to remove non-numeric entries, including 'no idea', extra spaces, and 'o'. The column was then converted to a numeric data type.
+Categorical features are encoded using Label Encoding, and specific columns are mapped to numerical values. Additionally, a feature is created to represent the total study time, combining the 'Days_per_week_for_reading' and 'Hours_per_day_for_personal_study' columns.
 
 ### Feature Engineering
 
-Additional features related to 'Monthly_allowance' were created, including 'Monthly_allowance_avg', 'Monthly_allowance_min', and 'Monthly_allowance_max'. These features represent the average, minimum, and maximum values of the monthly allowance, respectively.
+A new feature is introduced to the dataset to capture the total study time. This feature can potentially provide additional information for modeling.
 
-## Conclusion
+### Data Splitting
 
-Data preprocessing is a critical step in any data science project. It ensures that the data is clean, consistent, and ready for further analysis, feature engineering, and model building. The preprocessed dataset can now be used for exploratory data analysis (EDA) and subsequent modeling to predict GPA for first-year students.
+The dataset is split into training and testing sets, which are essential for training and evaluating machine learning models. A 70-30 split ratio is used.
+
+### Model Development and Evaluation
+
+Various machine learning regression models are developed and evaluated to predict CGPA. Models include Linear Regression, Lasso, Ridge, K-Nearest Neighbors, Support Vector Machine, Decision Tree, Random Forest, and more. The root mean squared error (RMSE) is used to evaluate each model's performance.
+
+### Model Selection and Performance
+
+The LightGBM model is selected based on its best performance, and hyperparameters are tuned to optimize its predictive power. The final model is trained on the entire dataset and tested on the testing set, achieving an RMSE that indicates its predictive accuracy.
