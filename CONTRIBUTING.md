@@ -153,3 +153,4 @@ If you have any questions or need assistance, please feel free to reach out to u
 3. [How to Translate Text with Azure AI Translator in Python](https://learn.microsoft.com/en-us/azure/ai-services/translator/quickstart-text-rest-api?tabs=python#translate-text?wt.mc_id=studentamb_217190)
 4. [Azure Speech Service documentation](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/?wt.mc_id=studentamb_217190)
 5. [Azure AI Translator documentation](https://learn.microsoft.com/en-us/azure/ai-services/translator/?wt.mc_id=studentamb_217190)
+6. [Getting Started: Multilingual Speech Transcription and Translation Solution with Azure AI](https://youtu.be/ikNPMomeZKs?si=90exV6Kd5xbR46QE)
