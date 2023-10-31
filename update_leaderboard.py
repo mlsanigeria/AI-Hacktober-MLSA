@@ -80,29 +80,28 @@ def leaderboard_data():
     # Calculate the leaderboard data
     sorted_users, avi = get_sorted_pr()
     leaderboard_data = []
+    rank = 1
+    last_count = 0
     pos = 1
-    
-    # Dictionary to store medals
+
+    Dictionary to store medals
     medals = {
         1: "🥇",  # Gold Medal
         2: "🥈",  # Silver Medal
         3: "🥉",  # Bronze Medal
     }
-    
     for user, count in sorted_users:
-        # Assign medals based on position
-        medal = medals.get(pos, str(pos))
-        leaderboard_data.append({
-            "position": pos,
-            "rank": medal,
-            "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>",
-            "contributor": f"[{user}](https://github.com/{user})",
-            "merged_prs": f"{count}"
-        })
+        if count == last_count:
+            rank -= 1
+            leaderboard_data.append({"position": pos, "rank":medals.get(rank,rank), "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
+        else:
+            last_count = count
+            leaderboard_data.append({"position": pos, "rank":medals.get(rank,rank), "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
+        rank += 1
         pos += 1
 
-
     return leaderboard_data
+
 
 
 leaderboard_data = leaderboard_data()
