@@ -80,33 +80,25 @@ def leaderboard_data():
     # Calculate the leaderboard data
     sorted_users, avi = get_sorted_pr()
     leaderboard_data = []
+    rank = 1
+    last_count = 0
     pos = 1
-    prev_count = None  # Variable to keep track of the previous user's PR count
-    
-    # Dictionary to store medals
+
+    Dictionary to store medals
     medals = {
         1: "🥇",  # Gold Medal
         2: "🥈",  # Silver Medal
         3: "🥉",  # Bronze Medal
     }
-    
     for user, count in sorted_users:
-        # Check if the current user has the same number of PRs as the previous user
-        if prev_count is not None and count < prev_count:
-            pos += 1
-        
-        # Assign medals based on position
-        medal = medals.get(pos, str(pos))
-        leaderboard_data.append({
-            "position": pos,
-            "rank": medal,
-            "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>",
-            "contributor": f"[{user}](https://github.com/{user})",
-            "merged_prs": f"{count}"
-        })
-        
-        # Update previous count for comparison in the next iteration
-        prev_count = count
+        if count == last_count:
+            rank -= 1
+            leaderboard_data.append({"position": pos, "rank":medals.get(rank,rank), "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
+        else:
+            last_count = count
+            leaderboard_data.append({"position": pos, "rank":medals.get(rank,rank), "avi": f"<img src='{avi[user]}' alt='Avatar' width='30' height='30'>", "contributor": f"[{user}](https://github.com/{user})", "merged_prs": f"{count}"})
+        rank += 1
+        pos += 1
 
     return leaderboard_data
 
