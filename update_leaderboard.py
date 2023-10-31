@@ -81,6 +81,7 @@ def leaderboard_data():
     sorted_users, avi = get_sorted_pr()
     leaderboard_data = []
     pos = 1
+    prev_count = None  # Variable to keep track of the previous user's PR count
     
     # Dictionary to store medals
     medals = {
@@ -90,6 +91,10 @@ def leaderboard_data():
     }
     
     for user, count in sorted_users:
+        # Check if the current user has the same number of PRs as the previous user
+        if prev_count is not None and count < prev_count:
+            pos += 1
+        
         # Assign medals based on position
         medal = medals.get(pos, str(pos))
         leaderboard_data.append({
@@ -99,10 +104,12 @@ def leaderboard_data():
             "contributor": f"[{user}](https://github.com/{user})",
             "merged_prs": f"{count}"
         })
-        pos += 1
-
+        
+        # Update previous count for comparison in the next iteration
+        prev_count = count
 
     return leaderboard_data
+
 
 
 leaderboard_data = leaderboard_data()
