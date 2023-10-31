@@ -5,7 +5,7 @@ import sklearn
 import joblib
 
 st.title("Year One GPA Prediction Application")
-st.write("This is an open source project created by participants of the HacktoberFest Open Source Contribution in conjuction with         the Microsoft Learn Student Ambassadors (MLSA) in Nigeria. The aim of this project is to create a web application that predicts the GPA of first year students")
+st.write("This is an open source project created by participants of the HacktoberFest Open Source Contribution in conjuction with the Microsoft Learn Student Ambassadors (MLSA) in Nigeria. The aim of this project is to create a web application that predicts the GPA of first year students")
 
 st.write("Input the following details to predict your GPA")
 jamb_score = st.number_input("What was your score in JAMB", min_value=0, max_value=400, step=1)
