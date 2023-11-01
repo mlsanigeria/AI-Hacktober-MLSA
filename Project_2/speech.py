@@ -13,11 +13,11 @@ cog_region = os.getenv('COG_SERVICE_REGION')
 speech_config = speech_sdk.SpeechConfig(cog_key, cog_region)
 #print('Ready to use speech service in:', speech_config.region)
 
-def Transcribe(filename="audio.wav"):
+def Transcribe():
     command = ''
 
     #configure speech recognition
-    audio_config = speech_sdk.AudioConfig(filename=filename)
+    audio_config = speech_sdk.AudioConfig(filename="audio.wav")
     #audio_config = speech_sdk.AudioConfig(use_default_microphone = True)
     
     #process speech input

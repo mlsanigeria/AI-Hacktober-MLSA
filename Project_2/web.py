@@ -2,6 +2,7 @@ import streamlit as st
 from SpeechTranslation import translate
 from speech import Transcribe
 from moviepy.editor import *
+from tempfile import NamedTemporaryFile
 
 # st.header("Speech Translation")
 st.markdown("# 🔊 Speech Translation")
@@ -22,7 +23,7 @@ dict_lang = {"Yoruba": "yo",
 if option=='A text':
     title = st.text_area('English Text', 'Enter your english text here?')
     if st.button('Translate'):
-        with st.spinner(f"Translating {option.split()[1]}..."):
+        with st.spinner(f"Translating text..."):
             translation = translate(dict_lang[language], title)
 
         st.write(f'Your translation from English to {language} is: ')
@@ -45,11 +46,27 @@ elif option== 'An audio file':
                 "nchannels": 1,  # Mono audio
                 "bitrate": "16k"  # Set the desired bitrate
             }
-            audioclip = AudioFileClip(audio_file, codec=audio_params["codec"],fps=audio_params["fps"],nbytes=2,bitrate=audio_params["bitrate"])
-            transcription = Transcribe(audio_file)
-            speech_translation = translate(dict_lang[language], transcription)
-            st.write(f'Your translation from English to {language} is: ', speech_translation)
+
+            with st.spinner(f"Translating audio..."):
+                with NamedTemporaryFile(suffix="wav") as temp:
+
+                    temp.write(audio_file)
+                    audioclip = AudioFileClip(temp.name)
+                    audioclip.write_audiofile("audio.wav", codec=audio_params["codec"], fps=audio_params["fps"],
+                                                nbytes=2,bitrate=audio_params["bitrate"])
+                    
+                    transcription = Transcribe()
+                    speech_translation = translate(dict_lang[language], transcription)
+
+            st.write(f'Your translation from English to {language} is: ')
+            # st.markdown(f"#### {translation}")
+            # st.code(f"{translation}", language="markdown")
+            # st.text(translation)
+            title = st.text_area(label='Output', value=speech_translation, height=200, label_visibility='hidden')
 
 else:
     st.write("Nothing was selected")
 
+st.divider()
+st.markdown("##### Built by contributors to the [AI-Hacktober-MLSA](https://github.com/mlsanigeria/AI-Hacktober-MLSA) repository as part of an ML/AI Hacktoberfest Challenge.")
+st.write("Copyright © Microsoft Learn Student Ambassadors, Nigeria 2023")
