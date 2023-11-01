@@ -20,7 +20,7 @@ params = {
     'from': 'en',
     'to': ['yo', 'ig','ha']
 }
-def translate(language, text = Transcribe()):
+def translate(language, text):
     headers = {
         'Ocp-Apim-Subscription-Key': key,
         # location required if you're using a multi-service or regional (not global) resource.
