@@ -11,3 +11,12 @@ lib64
 *.DS_Store
 .ipynb_checkpoints
 */__pycache__/
+*.mp3
+*.wav
+*.aac
+*.ogg
+*.wma
+*.aiff
+*.opus
+*.m4a
+*.amr
