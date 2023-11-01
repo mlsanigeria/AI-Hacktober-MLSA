@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'naija-translate'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_314B60725F264FA6B1B0A33D8E08C4F4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_732A9E7B5C89466A8C44F1B44B92B2EC }}
