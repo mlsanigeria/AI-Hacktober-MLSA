@@ -55,7 +55,7 @@ elif option== 'An audio file':
                     audioclip.write_audiofile("audio.wav", codec=audio_params["codec"], fps=audio_params["fps"],
                                                 nbytes=2,bitrate=audio_params["bitrate"])
                     
-                    transcription = Transcribe()
+                    transcription = Transcribe(filename)
                     speech_translation = translate(dict_lang[language], transcription)
 
             st.write(f'Your translation from English to {language} is: ')
