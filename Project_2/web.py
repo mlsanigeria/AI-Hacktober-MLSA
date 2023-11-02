@@ -1,6 +1,8 @@
 import streamlit as st 
 from SpeechTranslation import translate
-from speech import Transcribe
+# from speech import Transcribe
+from speech_rest import Transcribe
+
 from moviepy.editor import *
 from tempfile import NamedTemporaryFile
 
