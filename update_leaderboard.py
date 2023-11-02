@@ -84,7 +84,7 @@ def leaderboard_data():
     last_count = 0
     pos = 1
 
-    Dictionary to store medals
+    # Dictionary to store medals
     medals = {
         1: "🥇",  # Gold Medal
         2: "🥈",  # Silver Medal
