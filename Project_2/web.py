@@ -1,4 +1,6 @@
-import streamlit as st 
+import streamlit as st
+st.set_page_config(page_title="Naija Speech Translation App", page_icon="🔊")
+
 from SpeechTranslation import translate
 # from speech import Transcribe
 from speech_rest import Transcribe
