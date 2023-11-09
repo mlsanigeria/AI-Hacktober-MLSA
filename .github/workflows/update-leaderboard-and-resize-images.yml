@@ -4,7 +4,8 @@ on:
   pull_request:
     types:
       - closed
-
+  workflow_dispatch: {}  # Add workflow dispatch for manual triggering
+  
 jobs:
   update-leaderboard-and-resize-images:
     runs-on: ubuntu-latest
