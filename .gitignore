@@ -9,4 +9,3 @@ venv
 pyvenv.cfg
 lib64
 *.DS_Store
-/Project_1/Data
